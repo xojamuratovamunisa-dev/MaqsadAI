@@ -5,8 +5,8 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.filters import CommandStart
 import re
 
-from database.db import save_user
-from keyboards.menus import yonalish_keyboard, kasb_keyboard
+from db import save_user
+from menus import yonalish_keyboard, kasb_keyboard
 
 router = Router()
 
