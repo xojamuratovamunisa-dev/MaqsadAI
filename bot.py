@@ -5,8 +5,8 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from dotenv import load_dotenv
 import os
 
-from handlers.start import router as start_router
-from database.db import init_db
+from start import router as start_router
+from db import init_db
 
 load_dotenv()
 
