@@ -108,7 +108,13 @@ async def get_raqam_text(message: Message, state: FSMContext):
     await message.answer("✅ Raqam saqlandi!\n\nEndi yo'nalishingizni tanlang 👇", reply_markup=yonalish_keyboard())
     await state.set_state(Onboarding.yonalish)
 
-YONALISHLAR = ["📐 Texnika", "🧬 Tibbiyot", "⚖️ Huquq", "💼 Biznes", "🎨 Ijodkorlik", "💻 IT", "🌍 Diplomatiya", "📊 Iqtisodiyot", "🎓 Ta'lim"]
+YONALISHLAR = [
+    "💻 Texnologiya", "💼 Biznes", "💰 Moliya", "🎨 Dizayn",
+    "📱 Media", "🎭 San'at", "🏗️ Arxitektura", "⚙️ Muhandislik",
+    "🧬 Tibbiyot", "🧠 Psixologiya", "🎓 Ta'lim", "⚖️ Huquq",
+    "📊 Marketing", "🌍 Xalqaro Aloqalar", "✈️ Turizm", "🏋️ Sport",
+    "🚚 Logistika", "🔭 Ilm-fan", "🌱 Qishloq Xo'jaligi", "🛡️ Xavfsizlik"
+]
 
 @router.message(Onboarding.yonalish, F.text.in_(YONALISHLAR))
 async def get_yonalish(message: Message, state: FSMContext):
