@@ -50,8 +50,10 @@ async def cmd_start(message: Message, bot: Bot, state: FSMContext):
         return
 
     await message.answer(
-        "👋 Salom! MaqsadAI ga xush kelibsiz!\n\n"
-        "Keling tanishamiz. Ismingiz nima?",
+    "📲 Bizning sahifalarimiz:\n"
+"• Telegram: @AI_Maqsad\n"
+"• Instagram: instagram.com/maqsadai\n\n"
+"👋Keling tanishamiz. Ismingiz nima?",
         reply_markup=ReplyKeyboardRemove()
     )
     await state.set_state(Onboarding.ism)
