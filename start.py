@@ -8,12 +8,11 @@ from aiogram.types import CallbackQuery
 import re
 
 from db import save_user
-from menus import yonalish_keyboard, kasb_keyboard
+from menus import yonalish_keyboard, kasb_keyboard, main_menu
 
 router = Router()
 
 CHANNEL_ID = "@AI_Maqsad"
-INSTAGRAM = "instagram.com/maqsadai"
 
 class Onboarding(StatesGroup):
     ism = State()
@@ -32,7 +31,6 @@ async def check_subscription(bot: Bot, user_id: int) -> bool:
 def obuna_keyboard():
     return InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="📢 Kanalga o'tish", url=f"https://t.me/AI_Maqsad")],
-
         [InlineKeyboardButton(text="✅ Obuna bo'ldim", callback_data="check_sub")]
     ])
 
@@ -48,7 +46,7 @@ async def cmd_start(message: Message, bot: Bot, state: FSMContext):
         return
     await message.answer(
         "👋 Salom! MaqsadAI ga xush kelibsiz!\n\n"
-        f"📲 Bizni kuzating:\n• Telegram: {CHANNEL_ID}\n• Instagram: {INSTAGRAM}\n\n"
+        f"📲 Bizni kuzating: {CHANNEL_ID}\n\n"
         "Keling tanishamiz. Ismingiz nima?",
         reply_markup=ReplyKeyboardRemove()
     )
@@ -63,7 +61,7 @@ async def check_sub_callback(call: CallbackQuery, bot: Bot, state: FSMContext):
     await call.message.delete()
     await call.message.answer(
         "✅ Rahmat! Endi botdan foydalanishingiz mumkin.\n\n"
-        f"📲 Bizni kuzating:\n• Telegram: {CHANNEL_ID}\n• Instagram: {INSTAGRAM}\n\n"
+        f"📲 Bizni kuzating: {CHANNEL_ID}\n\n"
         "Ismingiz nima?",
         reply_markup=ReplyKeyboardRemove()
     )
@@ -136,7 +134,7 @@ async def get_kasb(message: Message, state: FSMContext):
         f"Sizning yo'l xaritangiz tayyor:\n\n"
         f"👤 Ism: {data['ism']}\n📚 Sinf: {data['sinf']}\n"
         f"🎯 Yo'nalish: {data['yonalish']}\n💼 Kasb: {message.text}\n\n"
-        f"Endi har kuni vazifalar keladi!\n🔥 Streak boshlandi!",
-        reply_markup=ReplyKeyboardRemove()
+        f"📚 Vazifalar tugmasini bos — birinchi kunlik vazifang tayyor!\n🔥 Streak boshlandi!",
+        reply_markup=main_menu()
     )
     await state.clear()
