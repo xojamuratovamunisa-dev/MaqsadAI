@@ -31,7 +31,8 @@ async def check_subscription(bot: Bot, user_id: int) -> bool:
 
 def obuna_keyboard():
     return InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="📢 Kanalga o'tish", url=f"https://t.me/AI_Maqsad")],
+        [InlineKeyboardButton(text="📢 Kanalga o'tish", url=f"https://t.me/AI_Maqsad")],[InlineKeyboardButton(text="📸 Instagram sahifamiz", url=f"https://{maqsadai}")],
+
         [InlineKeyboardButton(text="✅ Obuna bo'ldim", callback_data="check_sub")]
     ])
 
