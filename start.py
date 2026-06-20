@@ -1,3 +1,15 @@
+from aiogram import Router, F
+from aiogram.filters import CommandStart
+from aiogram.types import Message, CallbackQuery
+from aiogram.fsm.context import FSMContext
+import re
+
+router = Router()
+
+@router.message(CommandStart())
+async def command_start_handler(message: Message, state: FSMContext):
+    await state.set_state(Onboarding.yonalish)
+    await message.answer("Xush kelibsiz! Yo'nalishni tanlang:")
 @router.message(CommandStart())
 async def command_start_handler(message: Message, state: FSMContext):
     await state.set_state(Onboarding.yonalish)
