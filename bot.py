@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import os
 
 from start import router as start_router
-fr# from tasks import router as tasks_router
+# from tasks import router as tasks_router
 from db import init_db
 
 load_dotenv()
