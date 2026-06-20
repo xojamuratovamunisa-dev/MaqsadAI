@@ -1,3 +1,9 @@
+from aiogram.fsm.state import StatesGroup, State
+
+class Onboarding(StatesGroup):
+    yonalish = State()
+    ota_raqam = State()
+    kasb_tanlash = State()
 from aiogram import Router, F
 from aiogram.filters import CommandStart
 from aiogram.types import Message, CallbackQuery
