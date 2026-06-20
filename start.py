@@ -22,4 +22,4 @@ async def kasb_orqaga_handler(call: CallbackQuery, state: FSMContext):
 @router.callback_query(F.data == "yonalish_orqaga", Onboarding.kasb_tasdiqlash)
 async def yonalish_orqaga_handler(call: CallbackQuery, state: FSMContext):
     await call.message.delete()
-    await call.message.answer(
+    await call.message.answer()
