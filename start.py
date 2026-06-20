@@ -938,7 +938,7 @@ async def get_raqam_text(message: Message, state: FSMContext):
         await message.answer("❌ Raqam noto'g'ri!\nTo'g'ri format: +998901234567\nQaytadan kiriting:")
         return
     await state.update_data(ota_raqam=raqam)
-    await message.answer(
+    await _keyin_raqam(message, state)
 
 @router.callback_query(F.data == "kasb_orqaga", Onboarding.kasb_tasdiqlash)
 async def kasb_orqaga_handler(call: CallbackQuery, state: FSMContext):
