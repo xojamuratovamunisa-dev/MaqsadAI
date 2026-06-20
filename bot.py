@@ -20,7 +20,7 @@ async def main():
     dp = Dispatcher(storage=MemoryStorage())
 
     dp.include_router(start_router)
-    dp.include_router(tasks_router)
+    #  dp.include_router(tasks_router)
 
     await init_db()
     await dp.start_polling(bot)
