@@ -4,6 +4,7 @@ class Onboarding(StatesGroup):
     yonalish = State()
     ota_raqam = State()
     kasb_tanlash = State()
+    kasb_tasdiqlash = State()
 from aiogram import Router, F
 from aiogram.filters import CommandStart
 from aiogram.types import Message, CallbackQuery
