@@ -1,5 +1,4 @@
-
-    await state.set_state(Onboarding.yonalish)
+await state.set_state(Onboarding.yonalish)
 
 @router.message(Onboarding.ota_raqam, F.text)
 async def get_raqam_text(message: Message, state: FSMContext):
