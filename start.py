@@ -21,103 +21,103 @@ INSTAGRAM = "instagram.com/maqsadai"
 # ============================================================
 KASB_MALUMOTLARI = {
     "👨‍💻 Dasturchi": {"emoji": "👨‍💻", "tavsif": "Dasturchilar kompyuter dasturlari, ilovalar va veb saytlar yaratadi.", "maosh": "O'zbekistonda: $500-3000/oy | Xorijda: $3000-15000/oy", "kelajak": "IT sohasi tez rivojlanmoqda. Sun'iy intellekt, mobil ilovalar va cloud texnologiyalar bo'yicha talab katta!", "talablar": "Python, JavaScript, SQL bilimi. Ingliz tili muhim.", "universitetlar": "TATU, INHA, Webster, Turin Polytechnic"},
-    "🤖 AI Engineer": {"emoji": "🤖", "tavsif": "AI muhandislari sun'iy intellekt tizimlarini loyihalaydi va amalga oshiradi.", "maosh": "O'zbekistonda: $800-4000/oy | Xorijda: $5000-20000/oy", "kelajak": "Dunyodagi eng istiqbolli kasb! ChatGPT, robotlar, tibbiyot AI — hamma sohada kerak.", "talablar": "Python, matematika, Machine Learning. Master daraja tavsiya etiladi.", "universitetlar": "TATU, MIT (xorij), Stanford (xorij)"},
-    "🔐 Cybersecurity Specialist": {"emoji": "🔐", "tavsif": "Kiberjamiyat mutaxassislari kompaniyalar va davlatni xaker hujumlaridan himoya qiladi.", "maosh": "O'zbekistonda: $600-2500/oy | Xorijda: $4000-18000/oy", "kelajak": "Raqamli dunyoda xavfsizlik talab katta.", "talablar": "Network, Linux, kriptografiya bilimi. CEH, CISSP sertifikatlari.", "universitetlar": "TATU, Milliy gvardiya akademiyasi"},
-    "📊 Data Analyst": {"emoji": "📊", "tavsif": "Ma'lumotlar tahlilchilari katta hajmdagi ma'lumotlardan foydali xulosalar chiqaradi.", "maosh": "O'zbekistonda: $500-2000/oy | Xorijda: $3500-12000/oy", "kelajak": "Har bir kompaniya ma'lumotlar asosida qaror qabul qilmoqda.", "talablar": "Excel, SQL, Python, Tableau. Statistika bilimi muhim.", "universitetlar": "TATU, ToshDU, INHA"},
+    "🤖 AI Engineer": {"emoji": "🤖", "tavsif": "AI muhandislari sun'iy intellekt tizimlarini loyihalaydi va amalga oshiradi.", "maosh": "O'zbekistonda: $800-4000/oy | Xorijda: $5000-20000/oy", "kelajak": "Dunyodagi eng istiqbolli kasb!", "talablar": "Python, matematika, Machine Learning.", "universitetlar": "TATU, MIT (xorij), Stanford (xorij)"},
+    "🔐 Cybersecurity Specialist": {"emoji": "🔐", "tavsif": "Kiberjamiyat mutaxassislari kompaniyalar va davlatni xaker hujumlaridan himoya qiladi.", "maosh": "O'zbekistonda: $600-2500/oy | Xorijda: $4000-18000/oy", "kelajak": "Raqamli dunyoda xavfsizlik talab katta.", "talablar": "Network, Linux, kriptografiya. CEH, CISSP sertifikatlari.", "universitetlar": "TATU, Milliy gvardiya akademiyasi"},
+    "📊 Data Analyst": {"emoji": "📊", "tavsif": "Ma'lumotlar tahlilchilari katta hajmdagi ma'lumotlardan foydali xulosalar chiqaradi.", "maosh": "O'zbekistonda: $500-2000/oy | Xorijda: $3500-12000/oy", "kelajak": "Har bir kompaniya ma'lumotlar asosida qaror qabul qilmoqda.", "talablar": "Excel, SQL, Python, Tableau.", "universitetlar": "TATU, ToshDU, INHA"},
     "🎮 Game Developer": {"emoji": "🎮", "tavsif": "O'yin dasturchilar kompyuter va mobil o'yinlar yaratadi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-12000/oy", "kelajak": "O'yin sanoati yiliga $200 milliarddan ortiq.", "talablar": "Unity yoki Unreal Engine, C# yoki C++.", "universitetlar": "TATU, xususiy kurslar"},
-    "🚀 Startup Founder": {"emoji": "🚀", "tavsif": "Startap asoschilari yangi biznes g'oyalarini hayotga tadbiq etadi.", "maosh": "Cheksiz! Muvaffaqiyatli startap milliard dollarga baholanishi mumkin.", "kelajak": "O'zbekistonda startap ekotizimi rivojlanmoqda.", "talablar": "Biznes tafakkuri, liderlik, muammo hal qilish.", "universitetlar": "Westminster, Turin, INHA + akseleratorlar"},
-    "👔 CEO": {"emoji": "👔", "tavsif": "Bosh ijrochi direktor kompaniyani boshqaradi, strategiya belgilaydi.", "maosh": "O'zbekistonda: $2000-20000/oy | Xorijda: cheksiz", "kelajak": "Har doim kerak. Yaxshi rahbarlar kamyob!", "talablar": "MBA darajasi, liderlik, moliya, marketing bilimlari.", "universitetlar": "Westminster MBA, TIQXMMI"},
-    "📦 Product Manager": {"emoji": "📦", "tavsif": "Mahsulot menejeri IT mahsulotning strategiyasini belgilaydi.", "maosh": "O'zbekistonda: $800-3000/oy | Xorijda: $5000-20000/oy", "kelajak": "IT kompaniyalarning eng talab qilinadigan kasbi.", "talablar": "IT va biznes bilimlari, analitik fikrlash.", "universitetlar": "INHA, Westminster + online kurslar"},
-    "📋 Project Manager": {"emoji": "📋", "tavsif": "Loyiha menejeri loyihalarni boshidan oxirigacha boshqaradi.", "maosh": "O'zbekistonda: $600-2500/oy | Xorijda: $4000-15000/oy", "kelajak": "Barcha sohalarda kerak: IT, qurilish, tibbiyot.", "talablar": "PMP sertifikati, Agile/Scrum bilimlari.", "universitetlar": "Har qanday universitet + PMP sertifikat"},
+    "🚀 Startup Founder": {"emoji": "🚀", "tavsif": "Startap asoschilari yangi biznes g'oyalarini hayotga tadbiq etadi.", "maosh": "Cheksiz!", "kelajak": "O'zbekistonda startap ekotizimi rivojlanmoqda.", "talablar": "Biznes tafakkuri, liderlik, muammo hal qilish.", "universitetlar": "Westminster, Turin, INHA"},
+    "👔 CEO": {"emoji": "👔", "tavsif": "Bosh ijrochi direktor kompaniyani boshqaradi, strategiya belgilaydi.", "maosh": "O'zbekistonda: $2000-20000/oy | Xorijda: cheksiz", "kelajak": "Har doim kerak.", "talablar": "MBA darajasi, liderlik, moliya, marketing.", "universitetlar": "Westminster MBA, TIQXMMI"},
+    "📦 Product Manager": {"emoji": "📦", "tavsif": "Mahsulot menejeri IT mahsulotning strategiyasini belgilaydi.", "maosh": "O'zbekistonda: $800-3000/oy | Xorijda: $5000-20000/oy", "kelajak": "IT kompaniyalarning eng talab qilinadigan kasbi.", "talablar": "IT va biznes bilimlari, analitik fikrlash.", "universitetlar": "INHA, Westminster"},
+    "📋 Project Manager": {"emoji": "📋", "tavsif": "Loyiha menejeri loyihalarni boshidan oxirigacha boshqaradi.", "maosh": "O'zbekistonda: $600-2500/oy | Xorijda: $4000-15000/oy", "kelajak": "Barcha sohalarda kerak.", "talablar": "PMP sertifikati, Agile/Scrum.", "universitetlar": "Har qanday universitet + PMP"},
     "💡 Biznes Konsultant": {"emoji": "💡", "tavsif": "Biznes konsultantlar kompaniyalarga muammolarini aniqlash va yechim topishda yordam beradi.", "maosh": "O'zbekistonda: $500-3000/oy | Xorijda: $3000-15000/oy", "kelajak": "McKinsey, BCG kabi konsalting firmalari eng yuqori maosh to'laydi!", "talablar": "Tahliliy fikrlash, biznes bilimlari.", "universitetlar": "Westminster, TIQXMMI"},
-    "📈 Trader": {"emoji": "📈", "tavsif": "Treyderlar fond bozori, valyuta yoki kripto bozorlarida savdo qilib daromad oladi.", "maosh": "Cheksiz — o'z kapitalingizdan foiz.", "kelajak": "Raqamli moliya va kripto bozorlar kengaymoqda.", "talablar": "Texnik tahlil, moliya bilimlari, psixologik barqarorlik.", "universitetlar": "ToshDU iqtisodiyot + o'z-o'zini o'qitish"},
-    "💹 Investor": {"emoji": "💹", "tavsif": "Investorlar kompaniyalar yoki loyihalarga pul tikib, daromad oladi.", "maosh": "Cheksiz — investitsiyadan 10-30% yillik daromad.", "kelajak": "O'zbekiston investitsiya muhiti yaxshilanmoqda.", "talablar": "Moliya tahlili, risk baholash.", "universitetlar": "ToshDU, Westminster + CFA sertifikati"},
-    "📊 Financial Analyst": {"emoji": "📊", "tavsif": "Moliyaviy tahlilchilar kompaniyalar va investitsiyalarni baholab, tavsiyalar beradi.", "maosh": "O'zbekistonda: $600-2500/oy | Xorijda: $4000-15000/oy", "kelajak": "Bank, moliya kompaniyalari uchun zarur.", "talablar": "Excel, moliya modellashtirish, CFA sertifikati.", "universitetlar": "ToshDU, Westminster"},
-    "🧾 Accountant": {"emoji": "🧾", "tavsif": "Buxgalterlar moliyaviy hisobotlarni yuritadi va soliq masalalarini hal qiladi.", "maosh": "O'zbekistonda: $400-1500/oy | Xorijda: $3000-8000/oy", "kelajak": "Har bir tashkilotga kerak.", "talablar": "1C, soliq qonunchiligi, ACCA sertifikati.", "universitetlar": "ToshDU, TIQXMMI"},
-    "🏦 Bankir": {"emoji": "🏦", "tavsif": "Bankirlar kredit berish, omonat qabul qilish va moliyaviy xizmatlarni boshqaradi.", "maosh": "O'zbekistonda: $500-3000/oy | Xorijda: $3000-20000/oy", "kelajak": "Raqamli bank va fintech rivojlanishi yangi imkoniyatlar yaratmoqda.", "talablar": "Moliya bilimlari, kommunikatsiya, CFA/MBA.", "universitetlar": "ToshDU, Moliya instituti"},
-    "🖼️ Grafik Dizayner": {"emoji": "🖼️", "tavsif": "Grafik dizaynerlar logo, broshyura, reklama va vizual materiallar yaratadi.", "maosh": "O'zbekistonda: $300-1500/oy | Xorijda: $2000-8000/oy", "kelajak": "Har bir biznesga kerak. Freelance orqali xorijiy mijozlar bilan ishlash mumkin.", "talablar": "Adobe Photoshop, Illustrator, Figma.", "universitetlar": "Kamolot, San'at akademiyasi"},
-    "📱 UI/UX Dizayner": {"emoji": "📱", "tavsif": "UI/UX dizaynerlar ilova va veb saytlarning foydalanuvchilar uchun qulay bo'lishini ta'minlaydi.", "maosh": "O'zbekistonda: $500-2500/oy | Xorijda: $4000-15000/oy", "kelajak": "IT kompaniyalar uchun eng zarur mutaxassis.", "talablar": "Figma, Adobe XD, foydalanuvchi psixologiyasi.", "universitetlar": "TATU, Amaliy san'at + Coursera"},
-    "🎬 Motion Dizayner": {"emoji": "🎬", "tavsif": "Motion dizaynerlar animatsiya, video effektlar yaratadi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-12000/oy", "kelajak": "Video kontent o'sishi bilan motion dizayn talab yuqori.", "talablar": "After Effects, Cinema 4D, Premiere Pro.", "universitetlar": "San'at akademiyasi + YouTube"},
-    "🗿 3D Artist": {"emoji": "🗿", "tavsif": "3D artistlar uch o'lchamli modellar va animatsiyalar yaratadi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-15000/oy", "kelajak": "O'yin, kino, arxitektura vizualizatsiyasi uchun katta talab.", "talablar": "Blender, Maya, 3ds Max.", "universitetlar": "San'at akademiyasi + online kurslar"},
-    "🌐 Web Dizayner": {"emoji": "🌐", "tavsif": "Veb dizaynerlar chiroyli va qulay veb saytlar dizaynini yaratadi.", "maosh": "O'zbekistonda: $300-1500/oy | Xorijda: $2500-10000/oy", "kelajak": "Hamma biznes veb sayt kerakligi uchun talab kamaymasligi mumkin.", "talablar": "Figma, HTML/CSS asoslari, UX tushunchasi.", "universitetlar": "TATU + online kurslar"},
-    "📹 YouTuber": {"emoji": "📹", "tavsif": "YouTuberlar video kontent yaratib, auditoriya to'playdi.", "maosh": "Cheksiz — 100 ming obunachidan $1000-10000/oy", "kelajak": "Video kontent iste'moli yildan yilga o'sib bormoqda.", "talablar": "Kamera ko'nikmalari, montaj, ijodkorlik.", "universitetlar": "Maxsus ta'lim shart emas"},
-    "✍️ Blogger": {"emoji": "✍️", "tavsif": "Bloggerlar matn, foto yoki video orqali kontent yaratib, hamjamiyat shakllantiradi.", "maosh": "Cheksiz — hamkorlik va reklama orqali", "kelajak": "Personal brend va influencer marketing o'sib bormoqda.", "talablar": "Yozish ko'nikmalari, ijodkorlik.", "universitetlar": "Maxsus ta'lim shart emas"},
-    "🎞️ Video Editor": {"emoji": "🎞️", "tavsif": "Video montajchilar xom video materiallarni professional ko'rinishga keltiradi.", "maosh": "O'zbekistonda: $300-1500/oy | Xorijda: $2000-8000/oy", "kelajak": "Har bir media va reklama kompaniyasiga kerak.", "talablar": "Premiere Pro, After Effects, CapCut.", "universitetlar": "San'at akademiyasi + online kurslar"},
-    "🎮 Streamer": {"emoji": "🎮", "tavsif": "Streamerlar o'yin yoki boshqa kontentni jonli efirda ko'rsatib, auditoriya to'playdi.", "maosh": "Cheksiz — donatsiya, subscribe va sponsorlar orqali", "kelajak": "Esport va streaming sanoati tez rivojlanmoqda.", "talablar": "Xarizmatik shaxsiyat, OBS, kamera.", "universitetlar": "Maxsus ta'lim shart emas"},
-    "📰 Jurnalist": {"emoji": "📰", "tavsif": "Jurnalistlar yangilik yig'ib, tahlil qilib, jamoatchilika yetkazadi.", "maosh": "O'zbekistonda: $300-1200/oy | Xorijda: $2000-8000/oy", "kelajak": "Raqamli jurnalistika yangi imkoniyatlar ochmoqda.", "talablar": "Yozish ko'nikmalari, intervyu olish, ob'ektivlik.", "universitetlar": "O'zMU jurnalistika, ToshDU"},
-    "🎤 Singer": {"emoji": "🎤", "tavsif": "Qo'shiqchilar konsert, studiya yozuvi va ijro orqali o'z san'atini namoyish etadi.", "maosh": "Cheksiz — konsert, royalty va hamkorlik orqali", "kelajak": "Musiqa sanoati o'smoqda. Streaming platformalar yangi imkoniyat.", "talablar": "Vokal mahorati, sahna tajribasi.", "universitetlar": "Davlat konservatoriyasi"},
+    "📈 Trader": {"emoji": "📈", "tavsif": "Treyderlar fond bozori, valyuta yoki kripto bozorlarida savdo qilib daromad oladi.", "maosh": "Cheksiz.", "kelajak": "Raqamli moliya va kripto bozorlar kengaymoqda.", "talablar": "Texnik tahlil, moliya bilimlari.", "universitetlar": "ToshDU + o'z-o'zini o'qitish"},
+    "💹 Investor": {"emoji": "💹", "tavsif": "Investorlar kompaniyalar yoki loyihalarga pul tikib, daromad oladi.", "maosh": "Cheksiz.", "kelajak": "O'zbekiston investitsiya muhiti yaxshilanmoqda.", "talablar": "Moliya tahlili, risk baholash.", "universitetlar": "ToshDU, Westminster + CFA"},
+    "📊 Financial Analyst": {"emoji": "📊", "tavsif": "Moliyaviy tahlilchilar kompaniyalar va investitsiyalarni baholab, tavsiyalar beradi.", "maosh": "O'zbekistonda: $600-2500/oy | Xorijda: $4000-15000/oy", "kelajak": "Bank, moliya kompaniyalari uchun zarur.", "talablar": "Excel, moliya modellashtirish, CFA.", "universitetlar": "ToshDU, Westminster"},
+    "🧾 Accountant": {"emoji": "🧾", "tavsif": "Buxgalterlar moliyaviy hisobotlarni yuritadi.", "maosh": "O'zbekistonda: $400-1500/oy | Xorijda: $3000-8000/oy", "kelajak": "Har bir tashkilotga kerak.", "talablar": "1C, soliq qonunchiligi, ACCA.", "universitetlar": "ToshDU, TIQXMMI"},
+    "🏦 Bankir": {"emoji": "🏦", "tavsif": "Bankirlar kredit berish va moliyaviy xizmatlarni boshqaradi.", "maosh": "O'zbekistonda: $500-3000/oy | Xorijda: $3000-20000/oy", "kelajak": "Raqamli bank va fintech rivojlanmoqda.", "talablar": "Moliya bilimlari, CFA/MBA.", "universitetlar": "ToshDU, Moliya instituti"},
+    "🖼️ Grafik Dizayner": {"emoji": "🖼️", "tavsif": "Grafik dizaynerlar logo, broshyura, reklama va vizual materiallar yaratadi.", "maosh": "O'zbekistonda: $300-1500/oy | Xorijda: $2000-8000/oy", "kelajak": "Har bir biznesga kerak.", "talablar": "Adobe Photoshop, Illustrator, Figma.", "universitetlar": "Kamolot, San'at akademiyasi"},
+    "📱 UI/UX Dizayner": {"emoji": "📱", "tavsif": "UI/UX dizaynerlar ilova va veb saytlarning foydalanuvchilar uchun qulay bo'lishini ta'minlaydi.", "maosh": "O'zbekistonda: $500-2500/oy | Xorijda: $4000-15000/oy", "kelajak": "IT kompaniyalar uchun eng zarur mutaxassis.", "talablar": "Figma, Adobe XD, foydalanuvchi psixologiyasi.", "universitetlar": "TATU, Amaliy san'at"},
+    "🎬 Motion Dizayner": {"emoji": "🎬", "tavsif": "Motion dizaynerlar animatsiya va video effektlar yaratadi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-12000/oy", "kelajak": "Video kontent o'sishi bilan talab yuqori.", "talablar": "After Effects, Cinema 4D, Premiere Pro.", "universitetlar": "San'at akademiyasi"},
+    "🗿 3D Artist": {"emoji": "🗿", "tavsif": "3D artistlar uch o'lchamli modellar va animatsiyalar yaratadi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-15000/oy", "kelajak": "O'yin, kino, arxitektura uchun katta talab.", "talablar": "Blender, Maya, 3ds Max.", "universitetlar": "San'at akademiyasi"},
+    "🌐 Web Dizayner": {"emoji": "🌐", "tavsif": "Veb dizaynerlar chiroyli va qulay veb saytlar yaratadi.", "maosh": "O'zbekistonda: $300-1500/oy | Xorijda: $2500-10000/oy", "kelajak": "Hamma biznes veb sayt kerak.", "talablar": "Figma, HTML/CSS asoslari.", "universitetlar": "TATU + online kurslar"},
+    "📹 YouTuber": {"emoji": "📹", "tavsif": "YouTuberlar video kontent yaratib, auditoriya to'playdi.", "maosh": "Cheksiz — 100 ming obunachidan $1000-10000/oy", "kelajak": "Video kontent iste'moli o'sib bormoqda.", "talablar": "Kamera, montaj, ijodkorlik.", "universitetlar": "Maxsus ta'lim shart emas"},
+    "✍️ Blogger": {"emoji": "✍️", "tavsif": "Bloggerlar matn, foto yoki video orqali kontent yaratadi.", "maosh": "Cheksiz.", "kelajak": "Personal brend va influencer marketing o'sib bormoqda.", "talablar": "Yozish ko'nikmalari, ijodkorlik.", "universitetlar": "Maxsus ta'lim shart emas"},
+    "🎞️ Video Editor": {"emoji": "🎞️", "tavsif": "Video montajchilar xom video materiallarni professional ko'rinishga keltiradi.", "maosh": "O'zbekistonda: $300-1500/oy | Xorijda: $2000-8000/oy", "kelajak": "Har bir media kompaniyasiga kerak.", "talablar": "Premiere Pro, After Effects, CapCut.", "universitetlar": "San'at akademiyasi"},
+    "🎮 Streamer": {"emoji": "🎮", "tavsif": "Streamerlar o'yin yoki boshqa kontentni jonli efirda ko'rsatadi.", "maosh": "Cheksiz.", "kelajak": "Esport va streaming sanoati tez rivojlanmoqda.", "talablar": "Xarizmatik shaxsiyat, OBS, kamera.", "universitetlar": "Maxsus ta'lim shart emas"},
+    "📰 Jurnalist": {"emoji": "📰", "tavsif": "Jurnalistlar yangilik yig'ib, tahlil qilib, jamoatchilika yetkazadi.", "maosh": "O'zbekistonda: $300-1200/oy | Xorijda: $2000-8000/oy", "kelajak": "Raqamli jurnalistika yangi imkoniyatlar ochmoqda.", "talablar": "Yozish, intervyu olish, ob'ektivlik.", "universitetlar": "O'zMU jurnalistika, ToshDU"},
+    "🎤 Singer": {"emoji": "🎤", "tavsif": "Qo'shiqchilar konsert, studiya yozuvi va ijro orqali o'z san'atini namoyish etadi.", "maosh": "Cheksiz.", "kelajak": "Musiqa sanoati o'smoqda.", "talablar": "Vokal mahorati, sahna tajribasi.", "universitetlar": "Davlat konservatoriyasi"},
     "🎭 Aktyor": {"emoji": "🎭", "tavsif": "Aktyorlar teatr, kino va televizion loyihalarda rol o'ynaydi.", "maosh": "O'zbekistonda: $300-5000/loyiha | Xorijda: cheksiz", "kelajak": "O'zbek kinosi va seriallar sanoati rivojlanmoqda.", "talablar": "Aktyorlik ko'nikmalari, plastika, nutq.", "universitetlar": "Davlat san'at instituti"},
-    "🎵 Musiqachi": {"emoji": "🎵", "tavsif": "Musiqachilar cholg'u asbob chaladi, kuy bichadi.", "maosh": "Cheksiz — konsert, o'qitish, studiya ishlari orqali", "kelajak": "Musiqa ta'limi va professional musiqa sanoati o'smoqda.", "talablar": "Cholg'u asbob mahorati, nota bilimi.", "universitetlar": "Davlat konservatoriyasi"},
-    "🎧 DJ": {"emoji": "🎧", "tavsif": "DJ-lar musiqa mikslab, konsert va tadbirlarda tomoshabinlarga his-hayajon beradi.", "maosh": "O'zbekistonda: $200-2000/tadbir | Xorijda: cheksiz", "kelajak": "Klub, to'y va festival sanoati katta.", "talablar": "Musiqa hisi, DJ jihozlari, mikslash texnikasi.", "universitetlar": "Maxsus ta'lim shart emas"},
-    "🎬 Rejissyor": {"emoji": "🎬", "tavsif": "Rejissyorlar film, serial yoki teatr spektaklini sahna ortidan boshqaradi.", "maosh": "O'zbekistonda: $500-10000/loyiha | Xorijda: cheksiz", "kelajak": "O'zbek kinosi rivojlanmoqda.", "talablar": "Rejissyorlik mahorati, skript tahlili.", "universitetlar": "Davlat san'at instituti"},
+    "🎵 Musiqachi": {"emoji": "🎵", "tavsif": "Musiqachilar cholg'u asbob chaladi, kuy bichadi.", "maosh": "Cheksiz.", "kelajak": "Musiqa sanoati o'smoqda.", "talablar": "Cholg'u asbob mahorati, nota bilimi.", "universitetlar": "Davlat konservatoriyasi"},
+    "🎧 DJ": {"emoji": "🎧", "tavsif": "DJ-lar musiqa mikslab, konsert va tadbirlarda his-hayajon beradi.", "maosh": "O'zbekistonda: $200-2000/tadbir | Xorijda: cheksiz", "kelajak": "Klub, to'y va festival sanoati katta.", "talablar": "Musiqa hisi, DJ jihozlari, mikslash texnikasi.", "universitetlar": "Maxsus ta'lim shart emas"},
+    "🎬 Rejissyor": {"emoji": "🎬", "tavsif": "Rejissyorlar film, serial yoki teatr spektaklini boshqaradi.", "maosh": "O'zbekistonda: $500-10000/loyiha | Xorijda: cheksiz", "kelajak": "O'zbek kinosi rivojlanmoqda.", "talablar": "Rejissyorlik mahorati, skript tahlili.", "universitetlar": "Davlat san'at instituti"},
     "🏛️ Arxitektor": {"emoji": "🏛️", "tavsif": "Arxitektorlar binolar va inshootlar loyihasini yaratadi.", "maosh": "O'zbekistonda: $500-3000/oy | Xorijda: $4000-15000/oy", "kelajak": "O'zbekistonda qurilish sanoati tez rivojlanmoqda.", "talablar": "AutoCAD, ArchiCAD, Revit, ijodkorlik.", "universitetlar": "ToshDTU, TIQXMMI arxitektura"},
     "🛋️ Interyer Dizayner": {"emoji": "🛋️", "tavsif": "Interyer dizaynerlar xona va binolarning ichki ko'rinishini chiroyli qiladi.", "maosh": "O'zbekistonda: $400-2500/oy | Xorijda: $3000-12000/oy", "kelajak": "Ko'chmas mulk bozori o'sishi bilan talab yuqori.", "talablar": "AutoCAD, 3ds Max, rang nazariyasi.", "universitetlar": "ToshDTU, San'at instituti"},
-    "🏙️ Urban Planner": {"emoji": "🏙️", "tavsif": "Shaharsozlar shahar va qishloqlarning rivojlanish rejalarini ishlab chiqadi.", "maosh": "O'zbekistonda: $500-2000/oy | Xorijda: $4000-12000/oy", "kelajak": "Toshkent va viloyatlar shaharsozligi uchun zarur.", "talablar": "GIS dasturlari, shaharsozlik qonunchiligi.", "universitetlar": "ToshDTU"},
-    "🌿 Landshaft Dizayner": {"emoji": "🌿", "tavsif": "Landshaft dizaynerlar bog', park va ochiq maydonlarni rejalashtiradi.", "maosh": "O'zbekistonda: $400-1800/oy | Xorijda: $3000-10000/oy", "kelajak": "Yashil shaharlar konsepti o'sishi bilan talab kuchaymoqda.", "talablar": "O'simlikshunoslik, AutoCAD, ekologiya.", "universitetlar": "ToshDTU, Qishloq xo'jaligi universiteti"},
+    "🏙️ Urban Planner": {"emoji": "🏙️", "tavsif": "Shaharsozlar shahar rivojlanish rejalarini ishlab chiqadi.", "maosh": "O'zbekistonda: $500-2000/oy | Xorijda: $4000-12000/oy", "kelajak": "Toshkent shaharsozligi uchun zarur.", "talablar": "GIS dasturlari, shaharsozlik qonunchiligi.", "universitetlar": "ToshDTU"},
+    "🌿 Landshaft Dizayner": {"emoji": "🌿", "tavsif": "Landshaft dizaynerlar bog' va park maydonlarini rejalashtiradi.", "maosh": "O'zbekistonda: $400-1800/oy | Xorijda: $3000-10000/oy", "kelajak": "Yashil shaharlar konsepti o'sishi bilan talab kuchaymoqda.", "talablar": "O'simlikshunoslik, AutoCAD, ekologiya.", "universitetlar": "ToshDTU, QXU"},
     "👷 Qurilish Muhandisi": {"emoji": "👷", "tavsif": "Qurilish muhandislari loyiha hujjatlarini tayyorlaydi va qurilishni nazorat qiladi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-12000/oy", "kelajak": "O'zbekiston qurilish boomi.", "talablar": "AutoCAD, qurilish materiallar, hisob-kitob.", "universitetlar": "ToshDTU"},
     "🤖 Robototexnika Muhandisi": {"emoji": "🤖", "tavsif": "Robototexnika muhandislari robotlar va avtomatlashtirilgan tizimlarni loyihalaydi.", "maosh": "O'zbekistonda: $600-2500/oy | Xorijda: $5000-18000/oy", "kelajak": "Sanoat avtomatlashtirish juda istiqbolli!", "talablar": "Mexanika, elektronika, dasturlash.", "universitetlar": "TATU, ToshDTU"},
-    "⚡ Elektr Muhandisi": {"emoji": "⚡", "tavsif": "Elektr muhandislari elektr tizimlarini loyihalaydi va xizmat ko'rsatadi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $4000-12000/oy", "kelajak": "Yangilanuvchi energiya sohasida katta talab.", "talablar": "Elektrotexnika, AutoCAD.", "universitetlar": "TATU, ToshDTU"},
-    "🔧 Mexanik Muhandis": {"emoji": "🔧", "tavsif": "Mexanik muhandislar mashinalar va mexanik tizimlarni loyihalaydi.", "maosh": "O'zbekistonda: $400-1800/oy | Xorijda: $3500-12000/oy", "kelajak": "Avtomobil, aviatsiya sanoatida zarur.", "talablar": "SolidWorks, materialshunoslik.", "universitetlar": "ToshDTU, Politekhnika"},
+    "⚡ Elektr Muhandisi": {"emoji": "⚡", "tavsif": "Elektr muhandislari elektr tizimlarini loyihalaydi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $4000-12000/oy", "kelajak": "Yangilanuvchi energiya sohasida katta talab.", "talablar": "Elektrotexnika, AutoCAD.", "universitetlar": "TATU, ToshDTU"},
+    "🔧 Mexanik Muhandis": {"emoji": "🔧", "tavsif": "Mexanik muhandislar mashinalar va mexanik tizimlarni loyihalaydi.", "maosh": "O'zbekistonda: $400-1800/oy | Xorijda: $3500-12000/oy", "kelajak": "Avtomobil, aviatsiya sanoatida zarur.", "talablar": "SolidWorks, materialshunoslik.", "universitetlar": "ToshDTU"},
     "🏭 Avtomatika Muhandisi": {"emoji": "🏭", "tavsif": "Avtomatika muhandislari ishlab chiqarish jarayonlarini avtomatlashtirishni loyihalaydi.", "maosh": "O'zbekistonda: $500-2000/oy | Xorijda: $4000-14000/oy", "kelajak": "Sanoat 4.0 va aqlli fabrikalar!", "talablar": "PLC dasturlash, SCADA, robotika.", "universitetlar": "TATU, ToshDTU"},
-    "🏗️ Sanoat Muhandisi": {"emoji": "🏗️", "tavsif": "Sanoat muhandislari ishlab chiqarish samaradorligini oshirish uchun tizimlar yaratadi.", "maosh": "O'zbekistonda: $400-1800/oy | Xorijda: $4000-13000/oy", "kelajak": "Lean va Six Sigma metodologiyalari bilan sanoat samaradorligi oshirilmoqda.", "talablar": "Lean, Six Sigma, jarayon tahlili.", "universitetlar": "ToshDTU"},
-    "👨‍⚕️ Shifokor": {"emoji": "👨‍⚕️", "tavsif": "Shifokorlar kasalliklarni tashxislaydi, davolaydi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $6000-30000/oy", "kelajak": "Tibbiyot doimo zarur kasb.", "talablar": "6 yillik tibbiyot ta'limi + rezidentura.", "universitetlar": "ToshDTI, Samarqand DTI"},
+    "🏗️ Sanoat Muhandisi": {"emoji": "🏗️", "tavsif": "Sanoat muhandislari ishlab chiqarish samaradorligini oshirish uchun tizimlar yaratadi.", "maosh": "O'zbekistonda: $400-1800/oy | Xorijda: $4000-13000/oy", "kelajak": "Lean va Six Sigma metodologiyalari bilan sanoat samaradorligi oshirilmoqda.", "talablar": "Lean, Six Sigma.", "universitetlar": "ToshDTU"},
+    "👨‍⚕️ Shifokor": {"emoji": "👨‍⚕️", "tavsif": "Shifokorlar kasalliklarni tashxislaydi va davolaydi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $6000-30000/oy", "kelajak": "Tibbiyot doimo zarur.", "talablar": "6 yillik tibbiyot ta'limi + rezidentura.", "universitetlar": "ToshDTI, Samarqand DTI"},
     "🔪 Jarroh": {"emoji": "🔪", "tavsif": "Jarrohlar operatsiya orqali kasalliklarni davolaydi.", "maosh": "O'zbekistonda: $600-3000/oy | Xorijda: $10000-40000/oy", "kelajak": "Robot-assistli jarrohlik kelajagi katta.", "talablar": "8+ yillik ta'lim, qo'l mahorati.", "universitetlar": "ToshDTI"},
-    "🦷 Stomatolog": {"emoji": "🦷", "tavsif": "Stomatologlar tish va og'iz kasalliklarini davolaydi.", "maosh": "O'zbekistonda: $500-3000/oy | Xorijda: $5000-20000/oy", "kelajak": "Xususiy stomatologiya klinikalari ko'paymoqda.", "talablar": "5 yillik ta'lim, nozik qo'l ishi.", "universitetlar": "ToshDTI stomatologiya"},
-    "❤️ Kardiolog": {"emoji": "❤️", "tavsif": "Kardiologlar yurak va qon tomir kasalliklarini davolaydi.", "maosh": "O'zbekistonda: $600-2500/oy | Xorijda: $8000-30000/oy", "kelajak": "Yurak kasalliklari dunyoda eng ko'p tarqalgan.", "talablar": "8+ yillik ta'lim, EKG, EXO-KG.", "universitetlar": "ToshDTI, Kardiologiya instituti"},
-    "🧠 Psixiatr": {"emoji": "🧠", "tavsif": "Psixiatrlar ruhiy kasalliklarni tashxislaydi va davolaydi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $7000-25000/oy", "kelajak": "Mental salomatlik muammolari o'smoqda.", "talablar": "8+ yillik ta'lim, empatiya.", "universitetlar": "ToshDTI, Psixiatriya instituti"},
-    "🧠 Psixolog": {"emoji": "🧠", "tavsif": "Psixologlar odamlarning ruhiy holatini baholaydi va maslahat beradi.", "maosh": "O'zbekistonda: $300-1500/oy | Xorijda: $3000-12000/oy", "kelajak": "Mental salomatlik trendining o'sishi bilan talab oshmoqda.", "talablar": "Psixologiya ta'limi, empatiya.", "universitetlar": "O'zMU, TDPU"},
+    "🦷 Stomatolog": {"emoji": "🦷", "tavsif": "Stomatologlar tish va og'iz kasalliklarini davolaydi.", "maosh": "O'zbekistonda: $500-3000/oy | Xorijda: $5000-20000/oy", "kelajak": "Xususiy stomatologiya klinikalari ko'paymoqda.", "talablar": "5 yillik ta'lim, nozik qo'l ishi.", "universitetlar": "ToshDTI"},
+    "❤️ Kardiolog": {"emoji": "❤️", "tavsif": "Kardiologlar yurak va qon tomir kasalliklarini davolaydi.", "maosh": "O'zbekistonda: $600-2500/oy | Xorijda: $8000-30000/oy", "kelajak": "Yurak kasalliklari dunyoda eng ko'p tarqalgan.", "talablar": "8+ yillik ta'lim, EKG.", "universitetlar": "ToshDTI, Kardiologiya instituti"},
+    "🧠 Psixiatr": {"emoji": "🧠", "tavsif": "Psixiatrlar ruhiy kasalliklarni tashxislaydi va davolaydi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $7000-25000/oy", "kelajak": "Mental salomatlik muammolari o'smoqda.", "talablar": "8+ yillik ta'lim, empatiya.", "universitetlar": "ToshDTI"},
+    "🧠 Psixolog": {"emoji": "🧠", "tavsif": "Psixologlar odamlarning ruhiy holatini baholaydi.", "maosh": "O'zbekistonda: $300-1500/oy | Xorijda: $3000-12000/oy", "kelajak": "Mental salomatlik trendining o'sishi bilan talab oshmoqda.", "talablar": "Psixologiya ta'limi, empatiya.", "universitetlar": "O'zMU, TDPU"},
     "💆 Psixoterapevt": {"emoji": "💆", "tavsif": "Psixoterapevtlar mijozlarga uzoq muddatli terapiya orqali yordam beradi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $4000-15000/oy", "kelajak": "Onlayn terapiya platformalari global imkoniyat ochmoqda.", "talablar": "Psixologiya magistri, sertifikat.", "universitetlar": "O'zMU"},
     "👥 HR Mutaxassisi": {"emoji": "👥", "tavsif": "HR mutaxassislari xodimlarni yollash va o'qitishni boshqaradi.", "maosh": "O'zbekistonda: $400-1800/oy | Xorijda: $3000-10000/oy", "kelajak": "Har bir kompaniya HR kerak.", "talablar": "Psixologiya, kommunikatsiya, mehnat qonunchiligi.", "universitetlar": "O'zMU, TIQXMMI"},
-    "🎯 Career Coach": {"emoji": "🎯", "tavsif": "Karyera kouchilar odamlarga karyera yo'lini topishda yordam beradi.", "maosh": "O'zbekistonda: $300-2000/oy | Xorijda: $3000-15000/oy", "kelajak": "Karyera maslahat xizmatlariga talab oshib bormoqda.", "talablar": "Psixologiya, coaching sertifikati (ICF).", "universitetlar": "O'zMU + ICF sertifikati"},
+    "🎯 Career Coach": {"emoji": "🎯", "tavsif": "Karyera kouchilar odamlarga karyera yo'lini topishda yordam beradi.", "maosh": "O'zbekistonda: $300-2000/oy | Xorijda: $3000-15000/oy", "kelajak": "Karyera maslahat xizmatlariga talab oshib bormoqda.", "talablar": "Psixologiya, coaching sertifikati (ICF).", "universitetlar": "O'zMU + ICF"},
     "👨‍👩‍👧 Oilaviy Psixolog": {"emoji": "👨‍👩‍👧", "tavsif": "Oilaviy psixologlar oila munosabatlaridagi muammolarni hal qilishga yordam beradi.", "maosh": "O'zbekistonda: $300-1500/oy | Xorijda: $3500-12000/oy", "kelajak": "Oila masalasi doimo dolzarb.", "talablar": "Oilaviy terapiya sertifikati, empatiya.", "universitetlar": "O'zMU"},
-    "📚 O'qituvchi": {"emoji": "📚", "tavsif": "O'qituvchilar bilim beradi, yoshlarni tarbiyalaydi.", "maosh": "O'zbekistonda: $200-800/oy | Xususiy maktab: $500-2000/oy", "kelajak": "Xususiy maktablar o'sishi bilan yaxshi o'qituvchilarga talab oshmoqda.", "talablar": "Pedagog ta'limi, fan bilimi, sabr.", "universitetlar": "TDPU, ToshDU"},
+    "📚 O'qituvchi": {"emoji": "📚", "tavsif": "O'qituvchilar bilim beradi, yoshlarni tarbiyalaydi.", "maosh": "O'zbekistonda: $200-800/oy | Xususiy: $500-2000/oy", "kelajak": "Xususiy maktablar o'sishi bilan talab oshmoqda.", "talablar": "Pedagog ta'limi, sabr, kommunikatsiya.", "universitetlar": "TDPU, ToshDU"},
     "🎓 Professor": {"emoji": "🎓", "tavsif": "Professorlar oliy ta'limda dars beradi, ilmiy tadqiqot o'tkazadi.", "maosh": "O'zbekistonda: $400-1500/oy | Xorijda: $5000-20000/oy", "kelajak": "Xalqaro universitetlar doktorantlar qidirmoqda.", "talablar": "PhD darajasi, ilmiy maqolalar.", "universitetlar": "Har qanday yetakchi universitet"},
-    "🧑‍🏫 Mentor": {"emoji": "🧑‍🏫", "tavsif": "Mentorlar shaxsiy tajribalarini bo'lishib, boshqalarga rivojlanishda yo'l ko'rsatadi.", "maosh": "Cheksiz — konsalting va o'qitish orqali", "kelajak": "Online mentoring platformalari global bozor ochmoqda.", "talablar": "Tajriba, empatiya, kommunikatsiya.", "universitetlar": "Maxsus ta'lim shart emas"},
-    "💪 Trener": {"emoji": "💪", "tavsif": "Trenerlar sport, biznes yoki hayot ko'nikmalarini o'rgatadi.", "maosh": "O'zbekistonda: $300-2000/oy | Xorijda: cheksiz", "kelajak": "Onlayn treninglar global auditoriya imkoniyati bermoqda.", "talablar": "Sertifikat, tajriba, motivatsiya ko'nikmalari.", "universitetlar": "Sport akademiyasi + maxsus sertifikatlar"},
-    "🏫 Ta'lim Menejeri": {"emoji": "🏫", "tavsif": "Ta'lim menejerlari maktab yoki ta'lim muassasasini boshqaradi.", "maosh": "O'zbekistonda: $500-2000/oy", "kelajak": "Xususiy maktab va EdTech kompaniyalar kengaymoqda.", "talablar": "Boshqaruv, pedagogika, moliya bilimlari.", "universitetlar": "TDPU, TIQXMMI"},
+    "🧑‍🏫 Mentor": {"emoji": "🧑‍🏫", "tavsif": "Mentorlar shaxsiy tajribalarini bo'lishib, boshqalarga yo'l ko'rsatadi.", "maosh": "Cheksiz.", "kelajak": "Online mentoring platformalari global bozor ochmoqda.", "talablar": "Tajriba, empatiya, kommunikatsiya.", "universitetlar": "Maxsus ta'lim shart emas"},
+    "💪 Trener": {"emoji": "💪", "tavsif": "Trenerlar sport, biznes yoki hayot ko'nikmalarini o'rgatadi.", "maosh": "O'zbekistonda: $300-2000/oy | Xorijda: cheksiz", "kelajak": "Onlayn treninglar global auditoriya bermoqda.", "talablar": "Sertifikat, tajriba, motivatsiya.", "universitetlar": "Sport akademiyasi + sertifikatlar"},
+    "🏫 Ta'lim Menejeri": {"emoji": "🏫", "tavsif": "Ta'lim menejerlari maktab yoki ta'lim muassasasini boshqaradi.", "maosh": "O'zbekistonda: $500-2000/oy", "kelajak": "Xususiy maktab va EdTech kompaniyalar kengaymoqda.", "talablar": "Boshqaruv, pedagogika, moliya.", "universitetlar": "TDPU, TIQXMMI"},
     "⚖️ Advokat": {"emoji": "⚖️", "tavsif": "Advokatlar sud jarayonlarida mijozlarini himoya qiladi.", "maosh": "O'zbekistonda: $400-5000/oy | Xorijda: $5000-30000/oy", "kelajak": "Biznes va xususiy huquqiy xizmatlarga talab oshmoqda.", "talablar": "Yuridik ta'lim, advokat sertifikati, nutq san'ati.", "universitetlar": "ToshDYUI, O'zMU huquq"},
-    "📜 Yurist": {"emoji": "📜", "tavsif": "Yuristlar huquqiy masalalar bo'yicha maslahat beradi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-15000/oy", "kelajak": "Korxonalar, banklar va davlat tashkilotlarda doimiy talab.", "talablar": "Yuridik ta'lim, qonunchilik bilimlari.", "universitetlar": "ToshDYUI, O'zMU"},
+    "📜 Yurist": {"emoji": "📜", "tavsif": "Yuristlar huquqiy masalalar bo'yicha maslahat beradi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-15000/oy", "kelajak": "Korxonalar va davlat tashkilotlarda doimiy talab.", "talablar": "Yuridik ta'lim, qonunchilik.", "universitetlar": "ToshDYUI, O'zMU"},
     "👮 Prokuror": {"emoji": "👮", "tavsif": "Prokurorlar jinoyat ishlarini ko'rib chiqadi.", "maosh": "O'zbekistonda: $400-1500/oy + imtiyozlar", "kelajak": "Davlat xizmatida barqaror ish.", "talablar": "Yuridik ta'lim, prokuratura akademiyasi.", "universitetlar": "ToshDYUI, Prokuratura akademiyasi"},
     "🏛️ Sudya": {"emoji": "🏛️", "tavsif": "Sudyalar qonun asosida sud ishlarini ko'rib chiqib, adolatli qaror chiqaradi.", "maosh": "O'zbekistonda: $600-2000/oy + imtiyozlar", "kelajak": "Sud tizimi islohoti davom etmoqda.", "talablar": "Yuridik ta'lim, 5+ yil tajriba.", "universitetlar": "ToshDYUI, Sud akademiyasi"},
-    "🔍 Tergovchi": {"emoji": "🔍", "tavsif": "Tergovchilar jinoyat ishlarini o'rganib, dalillar yig'adi.", "maosh": "O'zbekistonda: $350-1200/oy + imtiyozlar", "kelajak": "Kiber jinoyatlar va moliyaviy tergov yangi yo'nalishlar.", "talablar": "Yuridik ta'lim, kriminalistika.", "universitetlar": "ToshDYUI, IIV akademiyasi"},
-    "📱 SMM Manager": {"emoji": "📱", "tavsif": "SMM menejerlar ijtimoiy tarmoqlarda brend sahifalarini boshqaradi.", "maosh": "O'zbekistonda: $300-1500/oy | Xorijda: $2000-8000/oy", "kelajak": "Har bir brend ijtimoiy tarmoq kerakligi uchun talab katta.", "talablar": "Kontent yaratish, tahlil, ijodkorlik, Canva.", "universitetlar": "Marketing kurslari + amaliyot"},
-    "🔍 SEO Specialist": {"emoji": "🔍", "tavsif": "SEO mutaxassislari veb saytlarni Google qidiruv natijalari tepasiga chiqaradi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-12000/oy", "kelajak": "Raqamli marketing o'sishi bilan SEO talab katta.", "talablar": "Google Analytics, Ahrefs, kalit so'z tahlili.", "universitetlar": "Online kurslar + amaliyot"},
-    "💻 Digital Marketer": {"emoji": "💻", "tavsif": "Raqamli marketologlar onlayn kanallar orqali mahsulot targ'ib qiladi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-12000/oy", "kelajak": "Bizneslar raqamli kanalga o'tishi bilan talab o'smoqda.", "talablar": "Google Ads, Facebook Ads, SEO.", "universitetlar": "Marketing kurslari, Google sertifikatlari"},
+    "🔍 Tergovchi": {"emoji": "🔍", "tavsif": "Tergovchilar jinoyat ishlarini o'rganib, dalillar yig'adi.", "maosh": "O'zbekistonda: $350-1200/oy + imtiyozlar", "kelajak": "Kiber jinoyatlar yangi yo'nalish.", "talablar": "Yuridik ta'lim, kriminalistika.", "universitetlar": "ToshDYUI, IIV akademiyasi"},
+    "📱 SMM Manager": {"emoji": "📱", "tavsif": "SMM menejerlar ijtimoiy tarmoqlarda brend sahifalarini boshqaradi.", "maosh": "O'zbekistonda: $300-1500/oy | Xorijda: $2000-8000/oy", "kelajak": "Har bir brend ijtimoiy tarmoq kerak.", "talablar": "Kontent yaratish, tahlil, ijodkorlik.", "universitetlar": "Marketing kurslari + amaliyot"},
+    "🔍 SEO Specialist": {"emoji": "🔍", "tavsif": "SEO mutaxassislari veb saytlarni Google tepasiga chiqaradi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-12000/oy", "kelajak": "Raqamli marketing o'sishi bilan talab katta.", "talablar": "Google Analytics, Ahrefs, kalit so'z tahlili.", "universitetlar": "Online kurslar + amaliyot"},
+    "💻 Digital Marketer": {"emoji": "💻", "tavsif": "Raqamli marketologlar onlayn kanallar orqali mahsulot targ'ib qiladi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-12000/oy", "kelajak": "Bizneslar raqamli kanalga o'tmoqda.", "talablar": "Google Ads, Facebook Ads, SEO.", "universitetlar": "Marketing kurslari, Google sertifikatlari"},
     "🏷️ Brand Manager": {"emoji": "🏷️", "tavsif": "Brend menejerlari kompaniya brendining qiyofasini boshqaradi.", "maosh": "O'zbekistonda: $500-2500/oy | Xorijda: $4000-15000/oy", "kelajak": "Global brendlar va mahalliy kompaniyalar uchun zarur.", "talablar": "Marketing strategiyasi, kommunikatsiya.", "universitetlar": "TIQXMMI, Westminster"},
-    "✍️ Copywriter": {"emoji": "✍️", "tavsif": "Kopirayterlar reklama va marketing uchun sotuv qiluvchi matn yozadi.", "maosh": "O'zbekistonda: $300-1500/oy | Xorijda: $2000-10000/oy", "kelajak": "Kontent marketing o'sishi bilan talab oshmoqda.", "talablar": "Yozish ko'nikmalari, psixologiya, marketing asoslari.", "universitetlar": "Jurnalistika + marketing kurslari"},
-    "🤝 Diplomat": {"emoji": "🤝", "tavsif": "Diplomatlar mamlakatlar o'rtasida munosabatlarni boshqaradi.", "maosh": "O'zbekistonda: $600-3000/oy + imtiyozlar", "kelajak": "O'zbekiston xalqaro aloqalarini kengaytirib bormoqda.", "talablar": "Xalqaro aloqalar ta'limi, til bilimlari (3+).", "universitetlar": "O'zMU XHXF, TMDH"},
-    "🗣️ Tarjimon": {"emoji": "🗣️", "tavsif": "Tarjimonlar tillar o'rtasida ma'no va g'oyalarni yetkazadi.", "maosh": "O'zbekistonda: $300-2000/oy | Xorijda: $2000-10000/oy", "kelajak": "Sifatli tarjimonlar kerak bo'lib qolaveradi.", "talablar": "2+ til mukammal bilimi, madaniy tushuncha.", "universitetlar": "O'zMU filologiya, ToshDU chet tillari"},
+    "✍️ Copywriter": {"emoji": "✍️", "tavsif": "Kopirayterlar reklama va marketing uchun sotuv qiluvchi matn yozadi.", "maosh": "O'zbekistonda: $300-1500/oy | Xorijda: $2000-10000/oy", "kelajak": "Kontent marketing o'sishi bilan talab oshmoqda.", "talablar": "Yozish ko'nikmalari, psixologiya, marketing.", "universitetlar": "Jurnalistika + marketing kurslari"},
+    "🤝 Diplomat": {"emoji": "🤝", "tavsif": "Diplomatlar mamlakatlar o'rtasida munosabatlarni boshqaradi.", "maosh": "O'zbekistonda: $600-3000/oy + imtiyozlar", "kelajak": "O'zbekiston xalqaro aloqalarini kengaytirmoqda.", "talablar": "Xalqaro aloqalar ta'limi, til bilimlari (3+).", "universitetlar": "O'zMU XHXF, TMDH"},
+    "🗣️ Tarjimon": {"emoji": "🗣️", "tavsif": "Tarjimonlar tillar o'rtasida ma'no va g'oyalarni yetkazadi.", "maosh": "O'zbekistonda: $300-2000/oy | Xorijda: $2000-10000/oy", "kelajak": "Sifatli tarjimonlar kerak bo'lib qolaveradi.", "talablar": "2+ til mukammal bilimi, madaniy tushuncha.", "universitetlar": "O'zMU filologiya, ToshDU"},
     "🌐 Xalqaro Menejer": {"emoji": "🌐", "tavsif": "Xalqaro menejerlar global kompaniyalarning xorijiy operatsiyalarini boshqaradi.", "maosh": "O'zbekistonda: $600-3000/oy | Xorijda: $4000-20000/oy", "kelajak": "Multinatsional kompaniyalar O'zbekistonga kirib kelmoqda.", "talablar": "MBA, ingliz tili, menejment.", "universitetlar": "Westminster, Turin"},
-    "🏛️ Elchixona Xodimi": {"emoji": "🏛️", "tavsif": "Elchixona xodimlari xorijdagi vatandoshlar manfaatini himoya qiladi.", "maosh": "O'zbekistonda (MFA): $400-1500/oy + xorijda yashash imtiyozlari", "kelajak": "Diplomatik korpus barqaror va nufuzli kasb.", "talablar": "XH ta'limi, til bilimlari, protokol.", "universitetlar": "O'zMU XHXF, TMDH"},
-    "📦 Tashqi Savdo Mutaxassisi": {"emoji": "📦", "tavsif": "Tashqi savdo mutaxassislari eksport-import operatsiyalarini boshqaradi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-12000/oy", "kelajak": "O'zbekiston eksportini oshirish siyosati bu kasb talabini oshirmoqda.", "talablar": "Savdo huquqi, til bilimlari, logistika.", "universitetlar": "TIQXMMI, O'zMU iqtisodiyot"},
-    "🗺️ Tur Menejer": {"emoji": "🗺️", "tavsif": "Tur menejerlar turistik marshrut va paketlarni tashkil qiladi.", "maosh": "O'zbekistonda: $300-1500/oy | Xorijda: $2000-8000/oy", "kelajak": "O'zbekistonga turizm o'smoqda.", "talablar": "Turizm ta'limi, til bilimlari, kommunikatsiya.", "universitetlar": "ToshDTU turizm, O'zMU"},
-    "🧭 Gid": {"emoji": "🧭", "tavsif": "Gidlar turistlarni tarixiy joylarda olib yuradi, ma'lumot beradi.", "maosh": "O'zbekistonda: $20-100/tur | Xorijda: $50-500/kun", "kelajak": "Chet ellik turistlar uchun malakali gidlar yetishmayapti.", "talablar": "Til bilimlari, tarix bilimi, kommunikatsiya.", "universitetlar": "Turizm instituti + til kurslari"},
-    "🏨 Hotel Manager": {"emoji": "🏨", "tavsif": "Hotel menejerlari mehmonxona operatsiyalarini boshqaradi.", "maosh": "O'zbekistonda: $500-2500/oy | Xorijda: $3000-15000/oy", "kelajak": "Yangi mehmonxonalar qurilishi bilan malakali menejerlar kerak.", "talablar": "Gostepriimlik menejment, til bilimlari.", "universitetlar": "ToshDTU, Swiss Hotel Management School"},
-    "📸 Travel Blogger": {"emoji": "📸", "tavsif": "Sayohat bloggerlar safari davomida kontent yaratib, auditoriya to'playdi.", "maosh": "Cheksiz — hamkorlik, reklama, affiliate marketing", "kelajak": "Sayohat kontenti qiziqishi o'smoqda.", "talablar": "Fotografiya, video montaj, yozish, SEO.", "universitetlar": "Maxsus ta'lim shart emas"},
-    "✈️ Pilot": {"emoji": "✈️", "tavsif": "Pilotlar yo'lovchi va yuk samolyotlarini boshqaradi.", "maosh": "O'zbekistonda: $1500-5000/oy | Xorijda: $5000-25000/oy", "kelajak": "O'zbekiston aviatsiyasi kengaymoqda.", "talablar": "Aviatsiya akademiyasi, PPL/CPL litsenziya, ingliz tili.", "universitetlar": "O'zbekiston Aviatsiya akademiyasi"},
+    "🏛️ Elchixona Xodimi": {"emoji": "🏛️", "tavsif": "Elchixona xodimlari xorijdagi vatandoshlar manfaatini himoya qiladi.", "maosh": "O'zbekistonda: $400-1500/oy + xorijda yashash imtiyozlari", "kelajak": "Diplomatik korpus barqaror va nufuzli kasb.", "talablar": "XH ta'limi, til bilimlari, protokol.", "universitetlar": "O'zMU XHXF, TMDH"},
+    "📦 Tashqi Savdo Mutaxassisi": {"emoji": "📦", "tavsif": "Tashqi savdo mutaxassislari eksport-import operatsiyalarini boshqaradi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-12000/oy", "kelajak": "O'zbekiston eksportini oshirish siyosati bu kasb talabini oshirmoqda.", "talablar": "Savdo huquqi, til bilimlari, logistika.", "universitetlar": "TIQXMMI"},
+    "🗺️ Tur Menejer": {"emoji": "🗺️", "tavsif": "Tur menejerlar turistik marshrut va paketlarni tashkil qiladi.", "maosh": "O'zbekistonda: $300-1500/oy | Xorijda: $2000-8000/oy", "kelajak": "O'zbekistonga turizm o'smoqda.", "talablar": "Turizm ta'limi, til bilimlari, kommunikatsiya.", "universitetlar": "ToshDTU turizm"},
+    "🧭 Gid": {"emoji": "🧭", "tavsif": "Gidlar turistlarni tarixiy joylarda olib yuradi.", "maosh": "O'zbekistonda: $20-100/tur | Xorijda: $50-500/kun", "kelajak": "Chet ellik turistlar uchun malakali gidlar yetishmayapti.", "talablar": "Til bilimlari, tarix, kommunikatsiya.", "universitetlar": "Turizm instituti + til kurslari"},
+    "🏨 Hotel Manager": {"emoji": "🏨", "tavsif": "Hotel menejerlari mehmonxona operatsiyalarini boshqaradi.", "maosh": "O'zbekistonda: $500-2500/oy | Xorijda: $3000-15000/oy", "kelajak": "Yangi mehmonxonalar qurilishi bilan menejerlar kerak.", "talablar": "Gostepriimlik menejment, til bilimlari.", "universitetlar": "ToshDTU"},
+    "📸 Travel Blogger": {"emoji": "📸", "tavsif": "Sayohat bloggerlar safari davomida kontent yaratib, auditoriya to'playdi.", "maosh": "Cheksiz.", "kelajak": "Sayohat kontenti qiziqishi o'smoqda.", "talablar": "Fotografiya, video montaj, yozish, SEO.", "universitetlar": "Maxsus ta'lim shart emas"},
+    "✈️ Pilot": {"emoji": "✈️", "tavsif": "Pilotlar yo'lovchi va yuk samolyotlarini boshqaradi.", "maosh": "O'zbekistonda: $1500-5000/oy | Xorijda: $5000-25000/oy", "kelajak": "O'zbekiston aviatsiyasi kengaymoqda.", "talablar": "Aviatsiya akademiyasi, PPL/CPL, ingliz tili.", "universitetlar": "O'zbekiston Aviatsiya akademiyasi"},
     "⚽ Futbolchi": {"emoji": "⚽", "tavsif": "Professional futbolchilar sport klublari uchun o'ynaydi.", "maosh": "O'zbekistonda: $500-5000/oy | Xorijda: cheksiz", "kelajak": "O'zbek futboli rivojlanmoqda.", "talablar": "Jismoniy tayyorgarlik, texnika, taktika.", "universitetlar": "RSSSMM, futbol akademiyalari"},
     "🥊 Bokschi": {"emoji": "🥊", "tavsif": "Professional bokschlar ring raqobatida kurashadi.", "maosh": "O'zbekistonda: $300-2000/musobaqa | Xorijda: cheksiz", "kelajak": "O'zbek bokschilar olimpiya chempionlari.", "talablar": "Texnika, jismoniy kuch, taktika.", "universitetlar": "Sport akademiyalari, boks maktablari"},
-    "🥋 UFC Jangchisi": {"emoji": "🥋", "tavsif": "UFC jangchilar aralash kurash (MMA) bilan shug'ullanadi.", "maosh": "UFC: $10,000-100,000+/musobaqa", "kelajak": "MMA sanoati tez o'smoqda.", "talablar": "Ko'p kurash turi, jismoniy tayyorgarlik.", "universitetlar": "Sport akademiyalari, MMA zamlari"},
+    "🥋 UFC Jangchisi": {"emoji": "🥋", "tavsif": "UFC jangchilar aralash kurash (MMA) bilan shug'ullanadi.", "maosh": "UFC: $10,000-100,000+/musobaqa", "kelajak": "MMA sanoati tez o'smoqda.", "talablar": "Ko'p kurash turi, jismoniy tayyorgarlik.", "universitetlar": "Sport akademiyalari"},
     "🏀 Basketbolchi": {"emoji": "🏀", "tavsif": "Professional basketbolchilar jamoalar uchun o'ynaydi.", "maosh": "O'zbekistonda: $300-2000/oy | NBA: millionlar", "kelajak": "Yosh iqtidorlarni chet el klublari qidirmoqda.", "talablar": "Bo'y, texnika, jamoaviy o'yin.", "universitetlar": "RSSSMM, sport akademiyalari"},
     "🎾 Tennischi": {"emoji": "🎾", "tavsif": "Professional tennis o'yinchilar ATP/WTA turnirlarida qatnashadi.", "maosh": "Cheksiz — Grand Slam g'oliblar millionlar ishlaydi", "kelajak": "O'zbek tennischilari xalqaro reyting olmoqda.", "talablar": "Texnika, jismoniy tayyorgarlik, taktika.", "universitetlar": "Tennis akademiyalari"},
-    "📦 Logistika Menejeri": {"emoji": "📦", "tavsif": "Logistika menejerlari yuk tashish va yetkazib berish jarayonlarini boshqaradi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-12000/oy", "kelajak": "E-commerce o'sishi bilan logistika talab oshmoqda.", "talablar": "Logistika ta'limi, ERP tizimlar.", "universitetlar": "TIQXMMI, ToshDTU"},
-    "🔗 Supply Chain Specialist": {"emoji": "🔗", "tavsif": "Ta'minot zanjiri mutaxassislari xomashyodan mahsulotgacha jarayonni optimallashtiradi.", "maosh": "O'zbekistonda: $500-2500/oy | Xorijda: $4000-15000/oy", "kelajak": "Global ta'minot zanjirlari murakkablashishi bilan talab o'sdi.", "talablar": "CSCP sertifikati, ERP, tahliliy fikrlash.", "universitetlar": "TIQXMMI + APICS sertifikat"},
-    "🚛 Transport Menejeri": {"emoji": "🚛", "tavsif": "Transport menejerlari transport parki va yuk tashish operatsiyalarini boshqaradi.", "maosh": "O'zbekistonda: $400-1800/oy | Xorijda: $3000-10000/oy", "kelajak": "Transport infratuzilmasi rivojlanishi bilan talab oshmoqda.", "talablar": "Transport qonunchiligi, fleet management.", "universitetlar": "ToshDTU transport"},
-    "🌏 Import/Export Mutaxassisi": {"emoji": "🌏", "tavsif": "Import/eksport mutaxassislari xalqaro savdo operatsiyalarini boshqaradi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-12000/oy", "kelajak": "O'zbekiston eksporti kengayishi bilan bu kasb talabi oshmoqda.", "talablar": "Xalqaro savdo qoidalari, Incoterms, til bilimlari.", "universitetlar": "TIQXMMI"},
+    "📦 Logistika Menejeri": {"emoji": "📦", "tavsif": "Logistika menejerlari yuk tashish va yetkazib berish jarayonlarini boshqaradi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-12000/oy", "kelajak": "E-commerce o'sishi bilan talab oshmoqda.", "talablar": "Logistika ta'limi, ERP tizimlar.", "universitetlar": "TIQXMMI, ToshDTU"},
+    "🔗 Supply Chain Specialist": {"emoji": "🔗", "tavsif": "Ta'minot zanjiri mutaxassislari xomashyodan mahsulotgacha jarayonni optimallashtiradi.", "maosh": "O'zbekistonda: $500-2500/oy | Xorijda: $4000-15000/oy", "kelajak": "Global ta'minot zanjirlari murakkablashishi bilan talab o'sdi.", "talablar": "CSCP sertifikati, ERP.", "universitetlar": "TIQXMMI + APICS"},
+    "🚛 Transport Menejeri": {"emoji": "🚛", "tavsif": "Transport menejerlari transport parki va yuk tashish operatsiyalarini boshqaradi.", "maosh": "O'zbekistonda: $400-1800/oy | Xorijda: $3000-10000/oy", "kelajak": "Transport infratuzilmasi rivojlanishi bilan talab oshmoqda.", "talablar": "Transport qonunchiligi, fleet management.", "universitetlar": "ToshDTU"},
+    "🌏 Import/Export Mutaxassisi": {"emoji": "🌏", "tavsif": "Import/eksport mutaxassislari xalqaro savdo operatsiyalarini boshqaradi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-12000/oy", "kelajak": "O'zbekiston eksporti kengaymoqda.", "talablar": "Xalqaro savdo qoidalari, Incoterms, til bilimlari.", "universitetlar": "TIQXMMI"},
     "✈️ Aviatsiya Logistika Mutaxassisi": {"emoji": "✈️", "tavsif": "Aviatsiya logistika mutaxassislari havo yo'li bilan yuk tashishni boshqaradi.", "maosh": "O'zbekistonda: $500-2500/oy | Xorijda: $4000-15000/oy", "kelajak": "O'zbekiston tranzit markaz bo'lmoqda.", "talablar": "Aviatsiya qoidalari, logistika, ingliz tili.", "universitetlar": "Aviatsiya akademiyasi"},
-    "⚛️ Fizik": {"emoji": "⚛️", "tavsif": "Fiziklar tabiat qonunlarini o'rganadi, yangi texnologiyalar kashf etadi.", "maosh": "O'zbekistonda: $300-1200/oy | Xorijda: $4000-15000/oy", "kelajak": "Kvant hisoblash va nanotexnologiya sohalari rivojlanmoqda.", "talablar": "Fizika va matematika, PhD darajasi.", "universitetlar": "ToshDU fizika, O'zMU"},
-    "🧪 Kimyogar": {"emoji": "🧪", "tavsif": "Kimyogarlar yangi moddalar va materiallarni kashf etadi.", "maosh": "O'zbekistonda: $300-1200/oy | Xorijda: $4000-14000/oy", "kelajak": "Farmatsevtika va yangi materiallar sanoatida talab bor.", "talablar": "Kimyo ta'limi, laboratoriya ko'nikmalari.", "universitetlar": "ToshDU, O'z FA kimyo instituti"},
-    "🌿 Biolog": {"emoji": "🌿", "tavsif": "Biologlar tirik organizmlarni o'rganadi.", "maosh": "O'zbekistonda: $300-1100/oy | Xorijda: $3500-12000/oy", "kelajak": "Biotexnologiya va biofarmatsevtika rivojlanmoqda.", "talablar": "Biologiya ta'limi, laboratoriya ko'nikmalari.", "universitetlar": "ToshDU biologiya"},
-    "🔭 Astronom": {"emoji": "🔭", "tavsif": "Astronomlar yulduzlar, sayyoralar va koinotni o'rganadi.", "maosh": "O'zbekistonda: $300-1000/oy | Xorijda: $4000-15000/oy", "kelajak": "SpaceX va NASA kabi kompaniyalar kosmik tadqiqotlarni kengaytirmoqda.", "talablar": "Fizika va matematika, PhD.", "universitetlar": "ToshDU, O'zbekiston FA Astronomiya instituti"},
+    "⚛️ Fizik": {"emoji": "⚛️", "tavsif": "Fiziklar tabiat qonunlarini o'rganadi, yangi texnologiyalar kashf etadi.", "maosh": "O'zbekistonda: $300-1200/oy | Xorijda: $4000-15000/oy", "kelajak": "Kvant hisoblash va nanotexnologiya rivojlanmoqda.", "talablar": "Fizika va matematika, PhD.", "universitetlar": "ToshDU fizika, O'zMU"},
+    "🧪 Kimyogar": {"emoji": "🧪", "tavsif": "Kimyogarlar yangi moddalar va materiallarni kashf etadi.", "maosh": "O'zbekistonda: $300-1200/oy | Xorijda: $4000-14000/oy", "kelajak": "Farmatsevtika va yangi materiallar sanoatida talab bor.", "talablar": "Kimyo ta'limi, laboratoriya ko'nikmalari.", "universitetlar": "ToshDU"},
+    "🌿 Biolog": {"emoji": "🌿", "tavsif": "Biologlar tirik organizmlarni o'rganadi.", "maosh": "O'zbekistonda: $300-1100/oy | Xorijda: $3500-12000/oy", "kelajak": "Biotexnologiya va biofarmatsevtika rivojlanmoqda.", "talablar": "Biologiya ta'limi, laboratoriya.", "universitetlar": "ToshDU biologiya"},
+    "🔭 Astronom": {"emoji": "🔭", "tavsif": "Astronomlar yulduzlar, sayyoralar va koinotni o'rganadi.", "maosh": "O'zbekistonda: $300-1000/oy | Xorijda: $4000-15000/oy", "kelajak": "SpaceX va NASA kosmik tadqiqotlarni kengaytirmoqda.", "talablar": "Fizika va matematika, PhD.", "universitetlar": "ToshDU, O'zFA Astronomiya instituti"},
     "🔬 Tadqiqotchi": {"emoji": "🔬", "tavsif": "Tadqiqotchilar muayyan sohalarda yangi bilimlar kashf etadi.", "maosh": "O'zbekistonda: $300-1200/oy | Xorijda: $4000-15000/oy", "kelajak": "Ilmiy grantlar va xalqaro hamkorlik imkoniyatlari o'smoqda.", "talablar": "PhD darajasi, tadqiqot metodologiyasi.", "universitetlar": "Har qanday oliy ta'lim muassasasi"},
     "🐾 Veterinar": {"emoji": "🐾", "tavsif": "Veterinarlar hayvon kasalliklarini davolaydi.", "maosh": "O'zbekistonda: $300-1200/oy | Xorijda: $3000-10000/oy", "kelajak": "Chorvachilik sanoati o'sishi bilan talab oshmoqda.", "talablar": "Veterinariya ta'limi, hayvonlarni sevish.", "universitetlar": "SamQXI, ToshDQXI"},
-    "🌾 Agronom": {"emoji": "🌾", "tavsif": "Agronomlar o'simlik yetishtirish va hosildorlikni oshirish bo'yicha mutaxassis.", "maosh": "O'zbekistonda: $300-1200/oy | Xorijda: $3000-10000/oy", "kelajak": "Oziq-ovqat xavfsizligi va smart farming agronom talabini oshirmoqda.", "talablar": "Agronomy ta'limi, tuproqshunoslik.", "universitetlar": "ToshDQXI, SamQXI"},
-    "👨‍🌾 Fermer": {"emoji": "👨‍🌾", "tavsif": "Fermerlar qishloq xo'jaligi mahsulotlari yetishtirib, bozorga yetkazadi.", "maosh": "Cheksiz — o'z fermasi daromadiga qarab", "kelajak": "Organik fermerchilik va agroturizm yangi imkoniyatlar bermoqda.", "talablar": "Agronomy bilimi, biznes tafakkuri.", "universitetlar": "QXI yoki amaliy tajriba"},
+    "🌾 Agronom": {"emoji": "🌾", "tavsif": "Agronomlar o'simlik yetishtirish va hosildorlikni oshirish bo'yicha mutaxassis.", "maosh": "O'zbekistonda: $300-1200/oy | Xorijda: $3000-10000/oy", "kelajak": "Smart farming agronom talabini oshirmoqda.", "talablar": "Agronomy ta'limi, tuproqshunoslik.", "universitetlar": "ToshDQXI, SamQXI"},
+    "👨‍🌾 Fermer": {"emoji": "👨‍🌾", "tavsif": "Fermerlar qishloq xo'jaligi mahsulotlari yetishtirib, bozorga yetkazadi.", "maosh": "Cheksiz.", "kelajak": "Organik fermerchilik va agroturizm yangi imkoniyatlar bermoqda.", "talablar": "Agronomy bilimi, biznes tafakkuri.", "universitetlar": "QXI yoki amaliy tajriba"},
     "🌱 Agrotexnolog": {"emoji": "🌱", "tavsif": "Agrotexnologlar yangi texnologiyalar orqali qishloq xo'jaligi samaradorligini oshiradi.", "maosh": "O'zbekistonda: $400-1500/oy | Xorijda: $3000-12000/oy", "kelajak": "Dronlar, sensorlar va AI fermerchilikda keng qo'llanilmoqda.", "talablar": "Agronomy + IT bilimlari.", "universitetlar": "ToshDQXI"},
-    "🐄 Zooinjener": {"emoji": "🐄", "tavsif": "Zooinjenerlar hayvon zotlarini yaxshilash va mahsuldorlikni oshiradi.", "maosh": "O'zbekistonda: $300-1200/oy", "kelajak": "Chorvachilik modernizatsiyasi bilan talab oshmoqda.", "talablar": "Zoologiya, genetika, hayvon fiziologiyasi.", "universitetlar": "ToshDQXI zootexniya"},
+    "🐄 Zooinjener": {"emoji": "🐄", "tavsif": "Zooinjenerlar hayvon zotlarini yaxshilash va mahsuldorlikni oshiradi.", "maosh": "O'zbekistonda: $300-1200/oy", "kelajak": "Chorvachilik modernizatsiyasi bilan talab oshmoqda.", "talablar": "Zoologiya, genetika, hayvon fiziologiyasi.", "universitetlar": "ToshDQXI"},
     "🎖️ Harbiy Ofitser": {"emoji": "🎖️", "tavsif": "Harbiy ofitserlar qurolli kuchlarni boshqaradi, mamlakatni himoya qiladi.", "maosh": "O'zbekistonda: $400-1500/oy + imtiyozlar", "kelajak": "Barqaror davlat xizmati va ijtimoiy himoya.", "talablar": "Harbiy akademiya, jismoniy tayyorgarlik, liderlik.", "universitetlar": "O'zbekiston Harbiy akademiyasi"},
     "🔬 Kriminalist": {"emoji": "🔬", "tavsif": "Kriminalistlar jinoyat dalillarini ilmiy usullar bilan o'rganadi.", "maosh": "O'zbekistonda: $350-1200/oy | Xorijda: $3000-10000/oy", "kelajak": "DNA tahlili, raqamli kriminalistika yangi yo'nalishlar.", "talablar": "Kimyo, biologiya, huquqshunoslik.", "universitetlar": "ToshDYUI, IIV akademiyasi"},
-    "💪 Maxsus Kuchlar Xodimi": {"emoji": "💪", "tavsif": "Maxsus kuchlar xodimlari murakkab vaziyatlarda harakat qiladigan elita harbiy guruhlar.", "maosh": "O'zbekistonda: $500-2000/oy + imtiyozlar", "kelajak": "Milliy xavfsizlik tizimida eng nufuzli lavozim.", "talablar": "Juda yuqori jismoniy va aqliy tayyorgarlik.", "universitetlar": "Harbiy akademiya + maxsus o'quv markazlari"},
+    "💪 Maxsus Kuchlar Xodimi": {"emoji": "💪", "tavsif": "Maxsus kuchlar xodimlari murakkab vaziyatlarda harakat qiladigan elita harbiy guruhlar.", "maosh": "O'zbekistonda: $500-2000/oy + imtiyozlar", "kelajak": "Milliy xavfsizlik tizimida eng nufuzli lavozim.", "talablar": "Juda yuqori jismoniy va aqliy tayyorgarlik.", "universitetlar": "Harbiy akademiya"},
     "🕵️ Detektiv": {"emoji": "🕵️", "tavsif": "Detektivlar jinoyatlarni tekshiradi, dalil yig'adi.", "maosh": "O'zbekistonda: $350-1500/oy | Xorijda: $3000-10000/oy", "kelajak": "Kiber jinoyatlar va moliyaviy tergov yangi ixtisoslik.", "talablar": "Huquq, psixologiya, kuzatuv ko'nikmalari.", "universitetlar": "ToshDYUI, IIV akademiyasi"},
     "🛡️ Milliy Xavfsizlik Mutaxassisi": {"emoji": "🛡️", "tavsif": "Milliy xavfsizlik mutaxassislari davlat xavfsizligini ta'minlash uchun tahlil qiladi.", "maosh": "O'zbekistonda: $500-2000/oy + imtiyozlar", "kelajak": "Kiber xavfsizlik va razvedka sohalari rivojlanmoqda.", "talablar": "Huquq, xalqaro aloqalar, analitik fikrlash.", "universitetlar": "DXA, harbiy akademiyalar"},
 }
@@ -135,6 +135,7 @@ class Onboarding(StatesGroup):
     yonalish        = State()
     kasb_tanlash    = State()
     kasb_tasdiqlash = State()
+    vaqt_tanlash    = State()
 
 # ============================================================
 # TEST SAVOLLARI
@@ -153,26 +154,26 @@ TEST_SAVOLLAR = [
 ]
 
 YONALISH_NATIJA = {
-    "T":  ("💻 Texnologiya",         ["👨‍💻 Dasturchi", "🤖 AI Engineer", "📊 Data Analyst"]),
-    "B":  ("💼 Biznes",              ["🚀 Startup Founder", "👔 CEO", "📦 Product Manager"]),
-    "M":  ("💰 Moliya",              ["📈 Trader", "💹 Investor", "📊 Financial Analyst"]),
-    "D":  ("🎨 Dizayn",              ["📱 UI/UX Dizayner", "🖼️ Grafik Dizayner", "🌐 Web Dizayner"]),
-    "Me": ("🎥 Media",               ["📹 YouTuber", "🎞️ Video Editor", "✍️ Blogger"]),
-    "S":  ("🎤 San'at",              ["🎤 Singer", "🎵 Musiqachi", "🎭 Aktyor"]),
-    "A":  ("🏛️ Arxitektura",        ["🏛️ Arxitektor", "🛋️ Interyer Dizayner", "🏙️ Urban Planner"]),
-    "Mu": ("⚙️ Muhandislik",        ["🤖 Robototexnika Muhandisi", "⚡ Elektr Muhandisi", "🔧 Mexanik Muhandis"]),
-    "Ti": ("🏥 Tibbiyot",            ["👨‍⚕️ Shifokor", "🔪 Jarroh", "🦷 Stomatolog"]),
-    "Ps": ("🧠 Psixologiya",         ["🧠 Psixolog", "🎯 Career Coach", "👥 HR Mutaxassisi"]),
-    "Ta": ("📚 Ta'lim",              ["📚 O'qituvchi", "🧑‍🏫 Mentor", "💪 Trener"]),
-    "H":  ("⚖️ Huquq",              ["⚖️ Advokat", "📜 Yurist", "🔍 Tergovchi"]),
-    "Ma": ("📈 Marketing",           ["📱 SMM Manager", "💻 Digital Marketer", "✍️ Copywriter"]),
-    "X":  ("🌍 Xalqaro Aloqalar",    ["🤝 Diplomat", "🗣️ Tarjimon", "🌐 Xalqaro Menejer"]),
-    "Tu": ("✈️ Turizm",              ["🗺️ Tur Menejer", "✈️ Pilot", "📸 Travel Blogger"]),
-    "Sp": ("⚽ Sport",               ["⚽ Futbolchi", "🥊 Bokschi", "🎾 Tennischi"]),
-    "L":  ("🚚 Logistika",           ["📦 Logistika Menejeri", "🔗 Supply Chain Specialist", "🚛 Transport Menejeri"]),
-    "I":  ("🔬 Ilm-fan",             ["🔬 Tadqiqotchi", "⚛️ Fizik", "🌿 Biolog"]),
-    "Q":  ("🌾 Qishloq Xo'jaligi",   ["🌾 Agronom", "🐾 Veterinar", "👨‍🌾 Fermer"]),
-    "Xa": ("🛡️ Xavfsizlik",         ["🎖️ Harbiy Ofitser", "🕵️ Detektiv", "🔬 Kriminalist"]),
+    "T":  ("💻 Texnologiya",        ["👨‍💻 Dasturchi", "🤖 AI Engineer", "📊 Data Analyst"]),
+    "B":  ("💼 Biznes",             ["🚀 Startup Founder", "👔 CEO", "📦 Product Manager"]),
+    "M":  ("💰 Moliya",             ["📈 Trader", "💹 Investor", "📊 Financial Analyst"]),
+    "D":  ("🎨 Dizayn",             ["📱 UI/UX Dizayner", "🖼️ Grafik Dizayner", "🌐 Web Dizayner"]),
+    "Me": ("🎥 Media",              ["📹 YouTuber", "🎞️ Video Editor", "✍️ Blogger"]),
+    "S":  ("🎤 San'at",             ["🎤 Singer", "🎵 Musiqachi", "🎭 Aktyor"]),
+    "A":  ("🏛️ Arxitektura",       ["🏛️ Arxitektor", "🛋️ Interyer Dizayner", "🏙️ Urban Planner"]),
+    "Mu": ("⚙️ Muhandislik",       ["🤖 Robototexnika Muhandisi", "⚡ Elektr Muhandisi", "🔧 Mexanik Muhandis"]),
+    "Ti": ("🏥 Tibbiyot",           ["👨‍⚕️ Shifokor", "🔪 Jarroh", "🦷 Stomatolog"]),
+    "Ps": ("🧠 Psixologiya",        ["🧠 Psixolog", "🎯 Career Coach", "👥 HR Mutaxassisi"]),
+    "Ta": ("📚 Ta'lim",             ["📚 O'qituvchi", "🧑‍🏫 Mentor", "💪 Trener"]),
+    "H":  ("⚖️ Huquq",             ["⚖️ Advokat", "📜 Yurist", "🔍 Tergovchi"]),
+    "Ma": ("📈 Marketing",          ["📱 SMM Manager", "💻 Digital Marketer", "✍️ Copywriter"]),
+    "X":  ("🌍 Xalqaro Aloqalar",  ["🤝 Diplomat", "🗣️ Tarjimon", "🌐 Xalqaro Menejer"]),
+    "Tu": ("✈️ Turizm",             ["🗺️ Tur Menejer", "✈️ Pilot", "📸 Travel Blogger"]),
+    "Sp": ("⚽ Sport",              ["⚽ Futbolchi", "🥊 Bokschi", "🎾 Tennischi"]),
+    "L":  ("🚚 Logistika",          ["📦 Logistika Menejeri", "🔗 Supply Chain Specialist", "🚛 Transport Menejeri"]),
+    "I":  ("🔬 Ilm-fan",            ["🔬 Tadqiqotchi", "⚛️ Fizik", "🌿 Biolog"]),
+    "Q":  ("🌾 Qishloq Xo'jaligi", ["🌾 Agronom", "🐾 Veterinar", "👨‍🌾 Fermer"]),
+    "Xa": ("🛡️ Xavfsizlik",        ["🎖️ Harbiy Ofitser", "🕵️ Detektiv", "🔬 Kriminalist"]),
 }
 
 # ============================================================
@@ -213,6 +214,23 @@ def kasb_tasdiqlash_keyboard():
         [InlineKeyboardButton(text="✅ Shu kasbni tanlayman!", callback_data="kasb_tasdiqlash")],
         [InlineKeyboardButton(text="⬅️ Orqaga (kasb o'zgartirish)", callback_data="kasb_orqaga")],
         [InlineKeyboardButton(text="🔄 Yo'nalishni o'zgartirish", callback_data="yonalish_orqaga")]
+    ])
+
+def vaqt_tanlash_kb():
+    return InlineKeyboardMarkup(inline_keyboard=[
+        [
+            InlineKeyboardButton(text="🌅 07:00", callback_data="vaqt_7"),
+            InlineKeyboardButton(text="⏰ 08:00", callback_data="vaqt_8"),
+            InlineKeyboardButton(text="🌤 09:00", callback_data="vaqt_9"),
+        ],
+        [
+            InlineKeyboardButton(text="🌆 18:00", callback_data="vaqt_18"),
+            InlineKeyboardButton(text="🌇 19:00", callback_data="vaqt_19"),
+            InlineKeyboardButton(text="🌃 20:00", callback_data="vaqt_20"),
+        ],
+        [
+            InlineKeyboardButton(text="🌙 21:00", callback_data="vaqt_21"),
+        ],
     ])
 
 # ============================================================
@@ -274,8 +292,7 @@ async def check_sub_callback(call: CallbackQuery, bot: Bot, state: FSMContext):
         return
     await call.message.delete()
     await call.message.answer(
-        "✅ Rahmat! Endi botdan foydalanishingiz mumkin.\n\n"
-        "<b>Ismingiz nima?</b>",
+        "✅ Rahmat!\n\n<b>Ismingiz nima?</b>",
         parse_mode="HTML",
         reply_markup=ReplyKeyboardRemove()
     )
@@ -392,12 +409,18 @@ async def test_javob(call: CallbackQuery, state: FSMContext):
 
 async def test_natija_korsatish(call, state, ball):
     eng_yaxshi = max(ball, key=ball.get) if ball else "T"
-    yonalish_nomi, kasblar = YONALISH_NATIJA.get(eng_yaxshi, ("💻 Texnologiya", ["👨‍💻 Dasturchi", "🤖 AI Engineer", "📊 Data Analyst"]))
+    yonalish_nomi, kasblar = YONALISH_NATIJA.get(
+        eng_yaxshi, ("💻 Texnologiya", ["👨‍💻 Dasturchi", "🤖 AI Engineer", "📊 Data Analyst"])
+    )
     saralangan = sorted(ball.items(), key=lambda x: x[1], reverse=True)
     ikkinchi = YONALISH_NATIJA.get(saralangan[1][0], ("", []))[0] if len(saralangan) > 1 else ""
     uchinchi  = YONALISH_NATIJA.get(saralangan[2][0], ("", []))[0] if len(saralangan) > 2 else ""
     await state.update_data(yonalish=yonalish_nomi)
-    xabar = f"🎯 <b>Test natijasi!</b>\n\n━━━━━━━━━━━━━━━\n🥇 <b>Asosiy yo'nalish:</b> {yonalish_nomi}\n"
+    xabar = (
+        f"🎯 <b>Test natijasi!</b>\n\n"
+        f"━━━━━━━━━━━━━━━\n"
+        f"🥇 <b>Asosiy yo'nalish:</b> {yonalish_nomi}\n"
+    )
     if ikkinchi: xabar += f"🥈 <b>Qo'shimcha:</b> {ikkinchi}\n"
     if uchinchi: xabar += f"🥉 <b>Alternativ:</b> {uchinchi}\n"
     xabar += f"━━━━━━━━━━━━━━━\n\n<b>Sizga mos kasblar:</b>\n\n"
@@ -439,14 +462,6 @@ async def get_kasb(message: Message, state: FSMContext):
 @router.callback_query(F.data == "kasb_tasdiqlash", Onboarding.kasb_tasdiqlash)
 async def kasb_tasdiqlash_handler(call: CallbackQuery, state: FSMContext):
     data = await state.get_data()
-    await save_user(
-        telegram_id=call.from_user.id,
-        ism=data["ism"],
-        sinf=data["sinf"],
-        ota_raqam=data["ota_raqam"],
-        yonalish=data["yonalish"],
-        kasb=data["kasb"]
-    )
     await call.message.delete()
     await call.message.answer("⚡ Saqlanmoqda...")
     await asyncio.sleep(1)
@@ -480,10 +495,31 @@ async def kasb_tasdiqlash_handler(call: CallbackQuery, state: FSMContext):
     )
     await asyncio.sleep(1.5)
     await call.message.answer(
-        f"🚀 <b>Birinchi vazifa ertaga keladi!</b>\n\n"
-        f"⏰ Har kuni <b>08:00</b> da yangi vazifa\n"
-        f"📊 Natijangizni ota-onangiz ko'radi\n\n"
-        f"Tayyor bo'ling, <b>{data['ism']}</b>! 💪",
+        f"⏰ <b>Vazifa qaysi vaqtda kelsin?</b>\n\n"
+        f"Har kuni shu vaqtda yangi vazifa yuboriladi 👇",
+        parse_mode="HTML",
+        reply_markup=vaqt_tanlash_kb()
+    )
+    await state.set_state(Onboarding.vaqt_tanlash)
+
+@router.callback_query(F.data.startswith("vaqt_"), Onboarding.vaqt_tanlash)
+async def vaqt_tanlash_handler(call: CallbackQuery, state: FSMContext):
+    vaqt = int(call.data.replace("vaqt_", ""))
+    data = await state.get_data()
+    await save_user(
+        telegram_id=call.from_user.id,
+        ism=data["ism"],
+        sinf=data["sinf"],
+        ota_raqam=data["ota_raqam"],
+        yonalish=data["yonalish"],
+        kasb=data["kasb"],
+        vazifa_vaqti=vaqt
+    )
+    await call.message.delete()
+    await call.message.answer(
+        f"✅ <b>Ajoyib!</b>\n\n"
+        f"Har kuni soat <b>{vaqt:02d}:00</b> da vazifa keladi! ⏰\n\n"
+        f"Tayyor bo'ling, <b>{data['ism']}</b>! 💪🔥",
         parse_mode="HTML"
     )
     await state.clear()
