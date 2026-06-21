@@ -6,7 +6,9 @@ DB_PATH = "maqsadai.db"
 async def init_db():
     async with aiosqlite.connect(DB_PATH) as db:
         await db.execute("""
-            CREATE TABLE IF NOT EXISTS users (
+            CREATE TABLE IF NOT EXISTS users (kasb TEXT,
+vazifa_vaqti INTEGER DEFAULT 8,  # ← shu qatorni qo'shing
+streak INTEGER DEFAULT 0,
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 telegram_id INTEGER UNIQUE,
                 ism TEXT,
@@ -29,17 +31,15 @@ async def init_db():
                 UNIQUE(telegram_id, day)
             )
         """)
-        await db.commit()
-
-async def save_user(telegram_id, ism, sinf, ota_raqam, yonalish, kasb):
+        
+async def save_user(telegram_id, ism, sinf, ota_raqam, yonalish, kasb, vazifa_vaqti=8):
     async with aiosqlite.connect(DB_PATH) as db:
         await db.execute("""
             INSERT OR REPLACE INTO users 
-            (telegram_id, ism, sinf, ota_raqam, yonalish, kasb)
-            VALUES (?, ?, ?, ?, ?, ?)
-        """, (telegram_id, ism, sinf, ota_raqam, yonalish, kasb))
+            (telegram_id, ism, sinf, ota_raqam, yonalish, kasb, vazifa_vaqti)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+        """, (telegram_id, ism, sinf, ota_raqam, yonalish, kasb, vazifa_vaqti))
         await db.commit()
-
 async def get_user(telegram_id):
     async with aiosqlite.connect(DB_PATH) as db:
         async with db.execute(
