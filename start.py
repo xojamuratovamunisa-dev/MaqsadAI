@@ -53,7 +53,7 @@ KASB_MALUMOTLARI = {
     "🏛️ Arxitektor": {"emoji": "🏛️", "tavsif": "Arxitektorlar binolar va inshootlar loyihasini yaratadi.", "maosh": "O'zbekistonda: $500-3000/oy | Xorijda: $4000-15000/oy", "kelajak": "O'zbekistonda qurilish sanoati tez rivojlanmoqda.", "talablar": "AutoCAD, ArchiCAD, Revit, ijodkorlik.", "universitetlar": "ToshDTU, TIQXMMI arxitektura"},
     "🛋️ Interyer Dizayner": {"emoji": "🛋️", "tavsif": "Interyer dizaynerlar xona va binolarning ichki ko'rinishini chiroyli qiladi.", "maosh": "O'zbekistonda: $400-2500/oy | Xorijda: $3000-12000/oy", "kelajak": "Ko'chmas mulk bozori o'sishi bilan talab yuqori.", "talablar": "AutoCAD, 3ds Max, rang nazariyasi.", "universitetlar": "ToshDTU, San'at instituti"},
     "🏙️ Urban Planner": {"emoji": "🏙️", "tavsif": "Shaharsozlar shahar rivojlanish rejalarini ishlab chiqadi.", "maosh": "O'zbekistonda: $500-2000/oy | Xorijda: $4000-12000/oy", "kelajak": "Toshkent shaharsozligi uchun zarur.", "talablar": "GIS dasturlari, shaharsozlik qonunchiligi.", "universitetlar": "ToshDTU"},
-    "🌿 Landshaft Dizayner": {"emoji": "🌿", "tavsif": "Landshaft dizaynerlar bog' va park maydonlarini rejalashtiradi.", "maosh": "O'zbekistonda: $400-1800/oy | Xorijda: $3000-10000/oy", "kelajak": "Yashil shaharlar konsepti o'sishi bilan talab kuchaymoqda.", "talablar": "O'simlikshunoslik, AutoCAD, ekologiya.", "universitetlar": "ToshDTU, QXU"},
+    "🌿 Landshaft Dizayner": {"emoji": "🌿", "tavsif": "Landshaft dizaynerlar bog' va park maydonlarini rejalashtiradi.", "maosh": "O'zbekistonda: $400-1800/oy | Xorijda: $3000-10000/oy", "kelajak": "Yashil shaharlar konsepti o'sishi bilan talab kuchaymoqda.", "talablar": "O'simlikshunoslik, AutoCAD, ekologiya.", "universitetlar": "ToshDTU"},
     "👷 Qurilish Muhandisi": {"emoji": "👷", "tavsif": "Qurilish muhandislari loyiha hujjatlarini tayyorlaydi va qurilishni nazorat qiladi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $3000-12000/oy", "kelajak": "O'zbekiston qurilish boomi.", "talablar": "AutoCAD, qurilish materiallar, hisob-kitob.", "universitetlar": "ToshDTU"},
     "🤖 Robototexnika Muhandisi": {"emoji": "🤖", "tavsif": "Robototexnika muhandislari robotlar va avtomatlashtirilgan tizimlarni loyihalaydi.", "maosh": "O'zbekistonda: $600-2500/oy | Xorijda: $5000-18000/oy", "kelajak": "Sanoat avtomatlashtirish juda istiqbolli!", "talablar": "Mexanika, elektronika, dasturlash.", "universitetlar": "TATU, ToshDTU"},
     "⚡ Elektr Muhandisi": {"emoji": "⚡", "tavsif": "Elektr muhandislari elektr tizimlarini loyihalaydi.", "maosh": "O'zbekistonda: $400-2000/oy | Xorijda: $4000-12000/oy", "kelajak": "Yangilanuvchi energiya sohasida katta talab.", "talablar": "Elektrotexnika, AutoCAD.", "universitetlar": "TATU, ToshDTU"},
@@ -131,7 +131,6 @@ class Onboarding(StatesGroup):
     ota_raqam       = State()
     yo_l_tanlash    = State()
     test_savol      = State()
-    test_natija     = State()
     yonalish        = State()
     kasb_tanlash    = State()
     kasb_tasdiqlash = State()
@@ -195,24 +194,32 @@ def sinf_kb():
             row = []
     if row:
         buttons.append(row)
+    # Orqaga tugmasi
+    buttons.append([InlineKeyboardButton(text="⬅️ Orqaga", callback_data="orqaga_ism")])
     return InlineKeyboardMarkup(inline_keyboard=buttons)
 
 def yo_l_tanlash_kb():
     return InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="🧠 Test orqali aniqlash (10 savol)", callback_data="yol_test")],
         [InlineKeyboardButton(text="🎯 O'zim tanlayaman", callback_data="yol_oz")],
+        [InlineKeyboardButton(text="⬅️ Orqaga", callback_data="orqaga_ota_raqam")],
     ])
 
 def test_javob_kb(savol_idx, javoblar):
     buttons = []
     for i, (matn, _) in enumerate(javoblar):
         buttons.append([InlineKeyboardButton(text=matn, callback_data=f"t_{savol_idx}_{i}")])
+    # 1-savolda orqaga = yo'l tanlashga, qolganida oldingi savolga
+    if savol_idx == 0:
+        buttons.append([InlineKeyboardButton(text="⬅️ Orqaga", callback_data="orqaga_yol_tanlash")])
+    else:
+        buttons.append([InlineKeyboardButton(text="⬅️ Orqaga", callback_data=f"test_orqaga_{savol_idx}")])
     return InlineKeyboardMarkup(inline_keyboard=buttons)
 
 def kasb_tasdiqlash_keyboard():
     return InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="✅ Shu kasbni tanlayman!", callback_data="kasb_tasdiqlash")],
-        [InlineKeyboardButton(text="⬅️ Orqaga (kasb o'zgartirish)", callback_data="kasb_orqaga")],
+        [InlineKeyboardButton(text="⬅️ Boshqa kasb", callback_data="kasb_orqaga")],
         [InlineKeyboardButton(text="🔄 Yo'nalishni o'zgartirish", callback_data="yonalish_orqaga")]
     ])
 
@@ -298,6 +305,7 @@ async def check_sub_callback(call: CallbackQuery, bot: Bot, state: FSMContext):
     )
     await state.set_state(Onboarding.ism)
 
+# --- ISM ---
 @router.message(Onboarding.ism)
 async def get_ism(message: Message, state: FSMContext):
     ism = message.text.strip()
@@ -312,6 +320,17 @@ async def get_ism(message: Message, state: FSMContext):
     )
     await state.set_state(Onboarding.sinf)
 
+# Sinf → orqaga = ismga qaytish
+@router.callback_query(F.data == "orqaga_ism")
+async def orqaga_ism(call: CallbackQuery, state: FSMContext):
+    await call.message.delete()
+    await call.message.answer(
+        "✏️ <b>Ismingizni qaytadan kiriting:</b>",
+        parse_mode="HTML"
+    )
+    await state.set_state(Onboarding.ism)
+
+# --- SINF ---
 @router.callback_query(F.data.startswith("sinf_"), Onboarding.sinf)
 async def get_sinf(call: CallbackQuery, state: FSMContext):
     sinf = call.data.replace("sinf_", "")
@@ -333,6 +352,18 @@ async def get_sinf(call: CallbackQuery, state: FSMContext):
     )
     await state.set_state(Onboarding.ota_raqam)
 
+# Ota-ona raqami → orqaga = sinfga qaytish
+@router.callback_query(F.data == "orqaga_ota_raqam")
+async def orqaga_ota_raqam(call: CallbackQuery, state: FSMContext):
+    await call.message.delete()
+    await call.message.answer(
+        "📚 <b>Nechi-sinfda o'qiysiz?</b>",
+        parse_mode="HTML",
+        reply_markup=sinf_kb()
+    )
+    await state.set_state(Onboarding.sinf)
+
+# --- OTA-ONA RAQAMI ---
 @router.message(Onboarding.ota_raqam, F.contact)
 async def get_raqam_contact(message: Message, state: FSMContext):
     raqam = message.contact.phone_number
@@ -352,6 +383,7 @@ async def get_raqam_text(message: Message, state: FSMContext):
     await state.update_data(ota_raqam=raqam)
     await _keyin_raqam(message, state)
 
+# --- YO'L TANLASH ---
 @router.callback_query(F.data == "yol_test", Onboarding.yo_l_tanlash)
 async def yol_test(call: CallbackQuery, state: FSMContext):
     await call.message.delete()
@@ -381,6 +413,22 @@ async def yol_oz(call: CallbackQuery, state: FSMContext):
     )
     await state.set_state(Onboarding.yonalish)
 
+# Yo'l tanlash → orqaga = ota-ona raqamiga
+@router.callback_query(F.data == "orqaga_yol_tanlash")
+async def orqaga_yol_tanlash(call: CallbackQuery, state: FSMContext):
+    await call.message.delete()
+    keyboard = ReplyKeyboardMarkup(
+        keyboard=[[KeyboardButton(text="📱 Raqamni ulashish", request_contact=True)]],
+        resize_keyboard=True
+    )
+    await call.message.answer(
+        "📱 <b>Ota-onangizning telefon raqami:</b>\n\nTugmani bosing yoki qo'lda kiriting:",
+        parse_mode="HTML",
+        reply_markup=keyboard
+    )
+    await state.set_state(Onboarding.ota_raqam)
+
+# --- TEST SAVOLLARI ---
 @router.callback_query(F.data.startswith("t_"), Onboarding.test_savol)
 async def test_javob(call: CallbackQuery, state: FSMContext):
     parts = call.data.split("_")
@@ -388,11 +436,15 @@ async def test_javob(call: CallbackQuery, state: FSMContext):
     javob_idx = int(parts[2])
     data = await state.get_data()
     ball = data.get("ball", {})
+    # Javob balllarini qo'shish
     _, balllar = TEST_SAVOLLAR[savol_idx]["javoblar"][javob_idx]
     for kod, qiymat in balllar.items():
         ball[kod] = ball.get(kod, 0) + qiymat
+    # Javob tarixini saqlash
+    tarix = data.get("javob_tarix", [])
+    tarix.append({"savol": savol_idx, "javob": javob_idx, "ball_qoshildi": balllar})
     keyingi = savol_idx + 1
-    await state.update_data(ball=ball)
+    await state.update_data(ball=ball, javob_tarix=tarix)
     await call.message.delete()
     progress = "🟢" * keyingi + "⚪" * (10 - keyingi)
     if keyingi < len(TEST_SAVOLLAR):
@@ -406,6 +458,31 @@ async def test_javob(call: CallbackQuery, state: FSMContext):
         await call.message.answer("⏳ Tahlil qilinmoqda...")
         await asyncio.sleep(1.5)
         await test_natija_korsatish(call, state, ball)
+
+# Test → orqaga (oldingi savolga)
+@router.callback_query(F.data.startswith("test_orqaga_"), Onboarding.test_savol)
+async def test_orqaga(call: CallbackQuery, state: FSMContext):
+    joriy_idx = int(call.data.replace("test_orqaga_", ""))
+    oldingi_idx = joriy_idx - 1
+    data = await state.get_data()
+    ball = data.get("ball", {})
+    tarix = data.get("javob_tarix", [])
+    # Oxirgi javob balllarini olib tashlash
+    if tarix:
+        oxirgi = tarix.pop()
+        for kod, qiymat in oxirgi["ball_qoshildi"].items():
+            ball[kod] = ball.get(kod, 0) - qiymat
+            if ball[kod] <= 0:
+                ball.pop(kod, None)
+    await state.update_data(ball=ball, javob_tarix=tarix)
+    await call.message.delete()
+    progress = "🟢" * oldingi_idx + "⚪" * (10 - oldingi_idx)
+    savol = TEST_SAVOLLAR[oldingi_idx]
+    await call.message.answer(
+        f"<b>{oldingi_idx + 1}/10</b> {progress}\n\n❓ {savol['savol']}",
+        parse_mode="HTML",
+        reply_markup=test_javob_kb(oldingi_idx, savol["javoblar"])
+    )
 
 async def test_natija_korsatish(call, state, ball):
     eng_yaxshi = max(ball, key=ball.get) if ball else "T"
@@ -430,6 +507,7 @@ async def test_natija_korsatish(call, state, ball):
     await call.message.answer(xabar, parse_mode="HTML", reply_markup=kasb_keyboard(yonalish_nomi))
     await state.set_state(Onboarding.kasb_tanlash)
 
+# --- O'ZI TANLASH ---
 @router.message(Onboarding.yonalish)
 async def get_yonalish(message: Message, state: FSMContext):
     await state.update_data(yonalish=message.text)
@@ -439,6 +517,7 @@ async def get_yonalish(message: Message, state: FSMContext):
     )
     await state.set_state(Onboarding.kasb_tanlash)
 
+# --- KASB TANLASH ---
 @router.message(Onboarding.kasb_tanlash)
 async def get_kasb(message: Message, state: FSMContext):
     kasb_nomi = message.text
@@ -459,6 +538,7 @@ async def get_kasb(message: Message, state: FSMContext):
     await message.answer(matn, reply_markup=kasb_tasdiqlash_keyboard(), parse_mode="HTML")
     await state.set_state(Onboarding.kasb_tasdiqlash)
 
+# --- KASB TASDIQLASH ---
 @router.callback_query(F.data == "kasb_tasdiqlash", Onboarding.kasb_tasdiqlash)
 async def kasb_tasdiqlash_handler(call: CallbackQuery, state: FSMContext):
     data = await state.get_data()
@@ -502,6 +582,22 @@ async def kasb_tasdiqlash_handler(call: CallbackQuery, state: FSMContext):
     )
     await state.set_state(Onboarding.vaqt_tanlash)
 
+# Kasb orqaga
+@router.callback_query(F.data == "kasb_orqaga", Onboarding.kasb_tasdiqlash)
+async def kasb_orqaga_handler(call: CallbackQuery, state: FSMContext):
+    data = await state.get_data()
+    await call.message.delete()
+    await call.message.answer("Boshqa kasb tanlang 👇", reply_markup=kasb_keyboard(data["yonalish"]))
+    await state.set_state(Onboarding.kasb_tanlash)
+
+# Yo'nalish orqaga
+@router.callback_query(F.data == "yonalish_orqaga", Onboarding.kasb_tasdiqlash)
+async def yonalish_orqaga_handler(call: CallbackQuery, state: FSMContext):
+    await call.message.delete()
+    await call.message.answer("Yo'nalishni qaytadan tanlang 👇", reply_markup=yonalish_keyboard())
+    await state.set_state(Onboarding.yonalish)
+
+# --- VAQT TANLASH ---
 @router.callback_query(F.data.startswith("vaqt_"), Onboarding.vaqt_tanlash)
 async def vaqt_tanlash_handler(call: CallbackQuery, state: FSMContext):
     vaqt = int(call.data.replace("vaqt_", ""))
@@ -523,16 +619,3 @@ async def vaqt_tanlash_handler(call: CallbackQuery, state: FSMContext):
         parse_mode="HTML"
     )
     await state.clear()
-
-@router.callback_query(F.data == "kasb_orqaga", Onboarding.kasb_tasdiqlash)
-async def kasb_orqaga_handler(call: CallbackQuery, state: FSMContext):
-    data = await state.get_data()
-    await call.message.delete()
-    await call.message.answer("Boshqa kasb tanlang 👇", reply_markup=kasb_keyboard(data["yonalish"]))
-    await state.set_state(Onboarding.kasb_tanlash)
-
-@router.callback_query(F.data == "yonalish_orqaga", Onboarding.kasb_tasdiqlash)
-async def yonalish_orqaga_handler(call: CallbackQuery, state: FSMContext):
-    await call.message.delete()
-    await call.message.answer("Yo'nalishni qaytadan tanlang 👇", reply_markup=yonalish_keyboard())
-    await state.set_state(Onboarding.yonalish)
