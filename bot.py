@@ -1,3 +1,11 @@
+from tasks import router as tasks_router, setup_scheduler
+
+# dp ga qo'shing:
+dp.include_router(tasks_router)
+
+# main() ichiga:
+scheduler = setup_scheduler(bot)
+scheduler.start()
 import asyncio
 import logging
 from aiogram import Bot, Dispatcher
