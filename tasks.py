@@ -385,3 +385,7 @@ def setup_scheduler(bot: Bot) -> AsyncIOScheduler:
         id="kunlik_vazifa"
     )
     return scheduler
+    async def vazifa_scheduler(bot: Bot):
+    while True:
+        await barcha_userlarga_vazifa(bot)
+        await asyncio.sleep(3600)  # Har 1 soatda
