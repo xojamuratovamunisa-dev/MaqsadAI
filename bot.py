@@ -1,5 +1,15 @@
-from tasks import router as tasks_router, setup_scheduler
-
+async def main():
+    bot = Bot(token=BOT_TOKEN)
+    dp = Dispatcher(storage=MemoryStorage())
+    dp.include_router(start_router)
+    dp.include_router(tasks_router)
+    await init_db()
+    
+    # Scheduler — apscheduler siz
+    asyncio.create_task(vazifa_scheduler(bot))
+    
+    await dp.start_polling(bot)
+from tasks import router as tasks_router
 # dp ga qo'shing:
 dp.include_router(tasks_router)
 
