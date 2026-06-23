@@ -374,17 +374,7 @@ async def bugungi_vazifa_handler(update):
 # ============================================================
 # SCHEDULER
 # ============================================================
-def (bot: Bot) -> AsyncIOScheduler:
-    scheduler = AsyncIOScheduler(timezone="Asia/Tashkent")
-    scheduler.add_job(
-        barcha_userlarga_vazifa,
-        trigger="cron",
-        minute=0,
-        args=[bot],
-        id="kunlik_vazifa"
-    )
-    return scheduler
-    async def vazifa_scheduler(bot: Bot):
+async def vazifa_scheduler(bot: Bot):
     while True:
         await barcha_userlarga_vazifa(bot)
-        await asyncio.sleep(3600)  # Har 1 soatda
+        await asyncio.sleep(3600)
