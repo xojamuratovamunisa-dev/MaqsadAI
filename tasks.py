@@ -5,7 +5,7 @@ import io
 import os
 from aiogram import Router, F, Bot
 from aiogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
-from scheduler.schedulers.asyncio import AsyncIOScheduler
+from APScheduler.schedulers.asyncio import AsyncIOScheduler
 from datetime import datetime
 
 from db import get_user, get_done_days, mark_done, get_all_users, get_streak
