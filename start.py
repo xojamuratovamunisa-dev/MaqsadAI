@@ -227,16 +227,31 @@ def vaqt_tanlash_kb():
     return InlineKeyboardMarkup(inline_keyboard=[
         [
             InlineKeyboardButton(text="🌅 07:00", callback_data="vaqt_7"),
-            InlineKeyboardButton(text="⏰ 08:00", callback_data="vaqt_8"),
+            InlineKeyboardButton(text="🌅 08:00", callback_data="vaqt_8"),
             InlineKeyboardButton(text="🌤 09:00", callback_data="vaqt_9"),
         ],
         [
-            InlineKeyboardButton(text="🌆 18:00", callback_data="vaqt_18"),
-            InlineKeyboardButton(text="🌇 19:00", callback_data="vaqt_19"),
-            InlineKeyboardButton(text="🌃 20:00", callback_data="vaqt_20"),
+            InlineKeyboardButton(text="☀️ 10:00", callback_data="vaqt_10"),
+            InlineKeyboardButton(text="☀️ 11:00", callback_data="vaqt_11"),
+            InlineKeyboardButton(text="🌞 12:00", callback_data="vaqt_12"),
         ],
         [
+            InlineKeyboardButton(text="🌤 13:00", callback_data="vaqt_13"),
+            InlineKeyboardButton(text="⛅ 14:00", callback_data="vaqt_14"),
+            InlineKeyboardButton(text="⛅ 15:00", callback_data="vaqt_15"),
+        ],
+        [
+            InlineKeyboardButton(text="🌆 16:00", callback_data="vaqt_16"),
+            InlineKeyboardButton(text="🌆 17:00", callback_data="vaqt_17"),
+            InlineKeyboardButton(text="🌇 18:00", callback_data="vaqt_18"),
+        ],
+        [
+            InlineKeyboardButton(text="🌇 19:00", callback_data="vaqt_19"),
+            InlineKeyboardButton(text="🌃 20:00", callback_data="vaqt_20"),
             InlineKeyboardButton(text="🌙 21:00", callback_data="vaqt_21"),
+        ],
+        [
+            InlineKeyboardButton(text="🌙 22:00", callback_data="vaqt_22"),
         ],
     ])
 
@@ -267,19 +282,11 @@ async def _keyin_raqam(message: Message, state: FSMContext):
 # ============================================================
 @router.message(CommandStart())
 async def cmd_start(message: Message, bot: Bot, state: FSMContext):
-    is_subscribed = await check_subscription(bot, message.from_user.id)
-    if not is_subscribed:
-        await message.answer(
-            "👋 Salom! MaqsadAI botiga xush kelibsiz!\n\n"
-            "Botdan foydalanish uchun avval kanalimizga obuna bo'ling 👇",
-            reply_markup=obuna_keyboard()
-        )
-        return
     await state.clear()
     await message.answer("🌟", reply_markup=ReplyKeyboardRemove())
     await asyncio.sleep(0.5)
     await message.answer(
-        "Salom! Men <b>MaqsadAI</b> — sizning shaxsiy karyera yo'riqnomangiz! 🚀\n\n"
+        "Salom! Men <b>CareerUp</b> — sizning shaxsiy karyera yo'riqnomangiz! 🚀\n\n"
         "Men sizga <b>12 oyda professional</b> bo'lishingizga yordam beraman.\n\n"
         "Faqat <b>3 daqiqa</b> — va sizning yo'l xaritangiz tayyor! ⚡",
         parse_mode="HTML"
@@ -291,19 +298,7 @@ async def cmd_start(message: Message, bot: Bot, state: FSMContext):
     )
     await state.set_state(Onboarding.ism)
 
-@router.callback_query(F.data == "check_sub")
-async def check_sub_callback(call: CallbackQuery, bot: Bot, state: FSMContext):
-    is_subscribed = await check_subscription(bot, call.from_user.id)
-    if not is_subscribed:
-        await call.answer("❌ Hali obuna bo'lmadingiz!", show_alert=True)
-        return
-    await call.message.delete()
-    await call.message.answer(
-        "✅ Rahmat!\n\n<b>Ismingiz nima?</b>",
-        parse_mode="HTML",
-        reply_markup=ReplyKeyboardRemove()
-    )
-    await state.set_state(Onboarding.ism)
+
 
 # --- ISM ---
 @router.message(Onboarding.ism)
@@ -547,7 +542,7 @@ async def kasb_tasdiqlash_handler(call: CallbackQuery, state: FSMContext):
     await asyncio.sleep(1)
     await call.message.answer(
         f"🎉 <b>TABRIKLAYMIZ, {data['ism'].upper()}!</b>\n\n"
-        f"Siz rasmiy ravishda <b>MaqsadAI</b> ga qo'shildingiz! 🚀",
+        f"Siz rasmiy ravishda <b>CareerUp</b> ga qo'shildingiz! 🚀",
         parse_mode="HTML"
     )
     await asyncio.sleep(1.2)
