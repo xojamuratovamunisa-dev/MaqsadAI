@@ -1,4 +1,4 @@
-apscheduler
+APScheduler==3.10.4
 aiohttp
 gspread
 google-auth
