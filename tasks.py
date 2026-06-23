@@ -189,7 +189,10 @@ async def yuborilsin_bugungi_vazifa(bot: Bot, telegram_id: int):
     )
 
 async def barcha_userlarga_vazifa(bot: Bot):
-    joriy_soat = datetime.now().hour
+# YANGI (O'zbekiston vaqti):
+from datetime import datetime, timezone, timedelta
+UZB = timezone(timedelta(hours=5))
+joriy_soat = datetime.now(UZB).hour
     users = await get_all_users()
     for telegram_id, ism in users:
         try:
