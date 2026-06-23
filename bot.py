@@ -12,13 +12,15 @@ from db import init_db
 load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-
 logging.basicConfig(level=logging.INFO)
 
 async def vazifa_scheduler(bot: Bot):
     while True:
-        await barcha_userlarga_vazifa(bot)
-        await asyncio.sleep(3600)
+        await asyncio.sleep(60)  # Har daqiqada tekshiradi
+        try:
+            await barcha_userlarga_vazifa(bot)
+        except Exception as e:
+            print(f"Scheduler xato: {e}")
 
 async def main():
     bot = Bot(token=BOT_TOKEN)
@@ -29,9 +31,11 @@ async def main():
 
     await init_db()
 
-    asyncio.create_task(vazifa_scheduler(bot))
-
-    await dp.start_polling(bot)
+    # Polling bilan birga scheduler ishlasin
+    await asyncio.gather(
+        dp.start_polling(bot),
+        vazifa_scheduler(bot)
+    )
 
 if __name__ == "__main__":
     asyncio.run(main())
